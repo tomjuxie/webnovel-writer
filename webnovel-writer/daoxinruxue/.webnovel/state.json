@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "title": "道心儒血",
+    "genre": "玄幻",
+    "created_at": "2026-05-23",
+    "target_words": 3000000,
+    "target_chapters": 1000,
+    "golden_finger_name": "诸子百家圣贤书简",
+    "golden_finger_type": "记忆神殿/传承类",
+    "golden_finger_style": "庄严圣洁/理论底气",
+    "core_selling_points": "百家争鸣,知行反噬,道心儒血,人道开天",
+    "protagonist_structure": "单主角",
+    "heroine_config": "单女主",
+    "heroine_names": "墨玄机",
+    "heroine_role": "墨家机关术支持/理念碰撞与共同成长",
+    "co_protagonists": "",
+    "co_protagonist_roles": "",
+    "antagonist_tiers": "小反派:前期儒道分歧/腐儒酷吏;中反派:中期妖蛮异族天骄;大反派:后期远古断路黑手",
+    "world_scale": "九州大陆",
+    "factions": "人族百家争鸣/战国列国,妖族(青州/云州),蛮族(炎州/荒州/苍州)",
+    "power_system_type": "百家争鸣修行体系",
+    "social_class": "战国争雄/大国博弈/平民微尘",
+    "resource_distribution": "百家掌控国运,边防轮值守卫",
+    "gf_visibility": "绝密半明牌",
+    "gf_irreversible_cost": "知行反噬与污道反噬",
+    "target_reader": "喜欢厚重世界观的玄幻读者",
+    "platform": "起点中文网",
+    "currency_system": "刀币/金饼/墨玉",
+    "currency_exchange": "1墨玉=100金饼=10000刀币",
+    "sect_hierarchy": "入门-真传-长老-掌门/学派大儒",
+    "cultivation_chain": "入室-立身-宗师-亚圣/圣人",
+    "cultivation_subtiers": "一至九境"
+  },
+  "progress": {
+    "current_chapter": 1,
+    "total_words": 2747,
+    "last_updated": "2026-05-23 17:24:00",
+    "volumes_completed": [],
+    "current_volume": 1,
+    "volumes_planned": [
+      {
+        "volume": 1,
+        "chapters_range": "1-50",
+        "planned_at": "2026-05-23"
+      }
+    ],
+    "chapter_status": {
+      "1": "chapter_committed"
+    }
+  },
+  "protagonist_state": {
+    "name": "顾道儒",
+    "power": {
+      "realm": "",
+      "layer": 1,
+      "bottleneck": ""
+    },
+    "location": {
+      "current": "",
+      "last_chapter": 0
+    },
+    "golden_finger": {
+      "name": "诸子百家圣贤书简",
+      "level": 1,
+      "cooldown": 0,
+      "skills": []
+    },
+    "attributes": {}
+  },
+  "relationships": {},
+  "disambiguation_warnings": [],
+  "disambiguation_pending": [],
+  "world_settings": {
+    "power_system": [],
+    "factions": [],
+    "locations": []
+  },
+  "plot_threads": {
+    "active_threads": [],
+    "foreshadowing": []
+  },
+  "review_checkpoints": [],
+  "chapter_meta": {},
+  "strand_tracker": {
+    "last_quest_chapter": 0,
+    "last_fire_chapter": 0,
+    "last_constellation_chapter": 0,
+    "current_dominant": "quest",
+    "chapters_since_switch": 0,
+    "history": []
+  },
+  "entity_state": {}
+}

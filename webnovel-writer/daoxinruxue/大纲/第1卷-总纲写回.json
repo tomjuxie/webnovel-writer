@@ -1,0 +1,30 @@
+{
+  "next_volume_anchor": {
+    "volume": 2,
+    "volume_name": "百家争鸣起中州",
+    "core_conflict": "主角入大周学宫，面对百家偏执与排挤，立道解惑",
+    "volume_end_climax": "与名家大儒辩论，道德经出世，紫气东来三千里"
+  },
+  "foreshadow_writeback": [
+    {
+      "content": "主角脑海中《圣贤道藏》未开启的“金石古器区”",
+      "buried_chapter": "第1章",
+      "payoff_chapter": "第300章",
+      "level": "核心"
+    },
+    {
+      "content": "大秦帝国深宫中有一尊碎裂 of 古圣法尺",
+      "buried_chapter": "第40章",
+      "payoff_chapter": "第420章",
+      "level": "势力"
+    }
+  ],
+  "open_loop_writeback": [
+    {
+      "content": "大周帝君亲自登门拜访，递上了一封来自血色防线的血书——大唐防线亚圣即将陨落，防线危急！",
+      "buried_chapter": "第50章",
+      "payoff_chapter": "",
+      "level": "持续开放环"
+    }
+  ]
+}

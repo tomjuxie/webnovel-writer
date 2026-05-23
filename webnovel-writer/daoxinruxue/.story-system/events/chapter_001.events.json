@@ -1,0 +1,32 @@
+[
+  {
+    "event_id": "ev_001_01",
+    "chapter": 1,
+    "event_type": "open_loop_created",
+    "subject": "临渊城",
+    "payload": {
+      "threat_source": "蛮族",
+      "threat_distance": "三十里",
+      "threat_indicator": "蛮神血烟"
+    }
+  },
+  {
+    "event_id": "ev_001_02",
+    "chapter": 1,
+    "event_type": "world_rule_revealed",
+    "subject": "知行反噬",
+    "payload": {
+      "rule_definition": "写出或口诵华夏经典能引动伟力，但若行止与经典意旨相悖，将遭遇恐怖的知行反噬，文胆爆裂或道基崩毁。"
+    }
+  },
+  {
+    "event_id": "ev_001_03",
+    "chapter": 1,
+    "event_type": "open_loop_created",
+    "subject": "扫地老者",
+    "payload": {
+      "action": "搭肩顾道儒并一口道破其华夏道统非此界按部就班的御水法门",
+      "mysterious_words": "老夫在这临渊城扫了三十年的雨，原以为这辈子只能扫出一堆枯骨，没曾想，今天倒扫出了一条异水之龙。"
+    }
+  }
+]

@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "contract_type": "MASTER_SETTING",
+    "generator_version": "phase1",
+    "query": "展开百家偏执争论的文戏，展现主角身在局中求超然的心态拉扯，为后续觉醒做深层铺垫。"
+  },
+  "route": {
+    "primary_genre": "玄幻退婚流",
+    "canonical_genre": "玄幻",
+    "route_source": "explicit_genre_fallback",
+    "genre_filter": "玄幻",
+    "recommended_base_tables": [
+      "命名规则",
+      "人设与关系",
+      "金手指与设定"
+    ],
+    "recommended_dynamic_tables": [
+      "桥段套路",
+      "爽点与节奏",
+      "场景写法"
+    ]
+  },
+  "master_constraints": {
+    "core_tone": "先压后爆",
+    "pacing_strategy": "三章内必须有首次有效反打"
+  },
+  "base_context": [
+    {
+      "编号": "SP-004",
+      "适用技能": "write|plan",
+      "分类": "桥段",
+      "层级": "知识补充",
+      "关键词": "桥段套路|扮猪吃虎|打脸反击|装弱爆发",
+      "意图与同义词": "扮猪吃虎怎么写|打脸怎么写|反击桥段怎么铺垫",
+      "适用题材": "全部",
+      "大模型指令": "先铺信息差和压制感，再在关键节点集中反击，不能让爆发毫无代价或完全靠对手降智。",
+      "核心摘要": "扮猪吃虎式反击要先让主角处于被低估位置，再通过信息差或隐藏底牌完成集中反转。",
+      "详细展开": "铺垫阶段要明确谁误判了主角、主角为什么暂时不出手，以及爆发后会改写什么局面。",
+      "场景类型": "桥段场景",
+      "模式名称": "扮猪吃虎式打脸反击",
+      "说明": "适合通过隐藏实力、错位认知和压抑蓄力制造反转爽感，关键在于前置压制和后段兑现对称。",
+      "示例片段": "众人都以为他只是个跑腿小修士，直到考核擂台开启，他一剑断阵，主考长老当场失声。",
+      "毒点": "刚被嘲讽完立刻无代价开挂秒杀，全程没有铺垫和反转支点",
+      "_table": "场景写法",
+      "_priority_rank": 2,
+      "_reasoning_rule": "玄幻",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.333333
+    },
+    {
+      "编号": "SP-021",
+      "适用技能": "write|plan",
+      "分类": "竞技",
+      "层级": "知识补充",
+      "关键词": "解说席|裁判点评|学院决斗|第三方拆招",
+      "意图与同义词": "有解说的对决怎么写|裁判点评怎么服务战斗|学院比赛怎么更清楚",
+      "适用题材": "游戏|玄幻|衍生",
+      "大模型指令": "让解说只解释关键招法和失误根源，别把每一步都讲成教学视频。",
+      "核心摘要": "第三方解说能把复杂战斗说清楚，也能通过预判被打脸制造额外戏剧性。",
+      "详细展开": "最适合在学院赛、公开擂台、电视转播这类场景里使用，用来解释为什么这招强、为什么那步错。",
+      "场景类型": "竞技场景",
+      "模式名称": "解说席拆招式对决",
+      "说明": "通过裁判、导师或解说员的视角，放大战术价值和观众反应。",
+      "示例片段": "“冰镜不是为了反弹，是为了吃掉火球的热量差！”导师话音没落，场上的火法就已经踩空了第二步。",
+      "毒点": "解说把所有动作都复述一遍，读者比场上观众还先看累。",
+      "_table": "场景写法",
+      "_priority_rank": 2,
+      "_reasoning_rule": "玄幻",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.333333
+    },
+    {
+      "编号": "PA-054",
+      "适用技能": "plan|write",
+      "分类": "节奏",
+      "层级": "知识补充",
+      "关键词": "质疑证明补刀|三拍节奏|打脸三段|补刀反转",
+      "意图与同义词": "打脸节奏怎么排|证明后怎么再补一刀|爽点三拍怎么做",
+      "适用题材": "都市|玄幻|悬疑|现言",
+      "大模型指令": "把质疑、证明、补刀拆成三拍，不要一上来就直接宣布主角赢了。",
+      "核心摘要": "很多打脸场的完成度，取决于最后那一拍补刀有没有把情绪真正抬满。",
+      "详细展开": "先让对方轻视，再让主角稳稳证明，最后用额外信息、隐藏身份或反手收益完成第三拍，会比单拍打脸更爽。",
+      "节奏类型": "质疑-证明-补刀三拍",
+      "情绪调动手法": "轻视压低预期|证明抬回局势|补刀再拔一层",
+      "毒点": "质疑太弱没有压迫|证明过长拖掉爽感|缺最后一拍导致场面发虚",
+      "_table": "爽点与节奏",
+      "_priority_rank": 0,
+      "_reasoning_rule": "玄幻",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
+    },
+    {
+      "编号": "PA-044",
+      "适用技能": "plan|write",
+      "分类": "节奏",
+      "层级": "知识补充",
+      "关键词": "爽点换挡|防疲劳|爽法轮换|中后期保鲜",
+      "意图与同义词": "一种爽点写多了怎么办|长篇怎么防打脸疲劳|中后期爽点怎么换口味",
+      "适用题材": "全部",
+      "大模型指令": "主卖点可以稳定，但兑现方式必须轮换，把打脸、智斗、情感、真相和关系回报交替投放。",
+      "核心摘要": "爽点换挡防疲劳期的目的，不是换掉卖点，而是让同一卖点从不同维度持续新鲜。",
+      "详细展开": "如果前期主打力量打脸，中后期就该插入规则破局、真相翻面、关系兑现或代价回收，避免单一爽法刷麻木。",
+      "节奏类型": "爽点换挡防疲劳期",
+      "情绪调动手法": "打脸换智斗|力量换情感|真相与关系交替释放",
+      "毒点": "全书只有一种爽法|换挡过猛丢掉主卖点|为了换而换却不服务主线",
+      "_table": "爽点与节奏",
+      "_priority_rank": 0,
+      "_reasoning_rule": "玄幻",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
+    }
+  ],
+  "source_trace": [
+    {
+      "table": "题材与调性推理",
+      "id": "GR-001",
+      "reason": "explicit_genre_fallback"
+    },
+    {
+      "table": "场景写法",
+      "id": "SP-004",
+      "summary": "扮猪吃虎式反击要先让主角处于被低估位置，再通过信息差或隐藏底牌完成集中反转。",
+      "reasoning_rule": "玄幻",
+      "priority_rank": 2,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.333333,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "场景写法",
+      "id": "SP-021",
+      "summary": "第三方解说能把复杂战斗说清楚，也能通过预判被打脸制造额外戏剧性。",
+      "reasoning_rule": "玄幻",
+      "priority_rank": 2,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.333333,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "爽点与节奏",
+      "id": "PA-054",
+      "summary": "很多打脸场的完成度，取决于最后那一拍补刀有没有把情绪真正抬满。",
+      "reasoning_rule": "玄幻",
+      "priority_rank": 0,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "爽点与节奏",
+      "id": "PA-044",
+      "summary": "爽点换挡防疲劳期的目的，不是换掉卖点，而是让同一卖点从不同维度持续新鲜。",
+      "reasoning_rule": "玄幻",
+      "priority_rank": 0,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "桥段套路",
+      "id": "TR-001",
+      "summary": "退婚或逐出型桥段要先把尊严踩到底，再用三年之约或延迟兑现把压抑转成长线期待。",
+      "reasoning_rule": "玄幻",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "桥段套路",
+      "id": "TR-003",
+      "summary": "打脸权威桥段要先让权威的判断看似合理，再用更高维的信息或能力在众目睽睽下推翻结论。",
+      "reasoning_rule": "玄幻",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    }
+  ],
+  "override_policy": {
+    "locked": [
+      "route.primary_genre",
+      "master_constraints.core_tone"
+    ],
+    "append_only": [
+      "anti_patterns"
+    ],
+    "override_allowed": []
+  }
+}
