@@ -24,13 +24,18 @@ from runtime_compat import normalize_windows_path
 DEFAULT_PROJECT_DIR_NAMES: tuple[str, ...] = ("webnovel-project",)
 CURRENT_PROJECT_POINTER_REL: Path = Path(".claude") / ".webnovel-current-project"
 
-# 用户级全局映射（当 skills/agents 安装在 ~/.claude 时，项目目录可能在任意盘符）
+# 用户级全局映射（当 skills/agents 安装在 ~/.claude 或 ~/.gemini 时，项目目录可能在任意盘符）
 # 该文件用于在“空上下文 + CWD 不在项目内”的情况下仍能定位到正确 project_root。
 GLOBAL_REGISTRY_REL: Path = Path("webnovel-writer") / "workspaces.json"
 
-# Claude Code 常见环境变量（存在时优先作为“工作区根目录”提示）
+# Antigravity & Claude Code 常见环境变量（存在时优先作为“工作区根目录”提示）
+ENV_ANTIGRAVITY_PROJECT_DIR = "ANTIGRAVITY_PROJECT_DIR"
 ENV_CLAUDE_PROJECT_DIR = "CLAUDE_PROJECT_DIR"
+
+ENV_ANTIGRAVITY_HOME = "ANTIGRAVITY_HOME"
 ENV_CLAUDE_HOME = "CLAUDE_HOME"
+
+ENV_WEBNOVEL_ANTIGRAVITY_HOME = "WEBNOVEL_ANTIGRAVITY_HOME"
 ENV_WEBNOVEL_CLAUDE_HOME = "WEBNOVEL_CLAUDE_HOME"
 
 
@@ -60,13 +65,27 @@ def _normcase_path_key(p: Path) -> str:
 
 
 def _get_user_claude_root() -> Path:
-    raw = os.environ.get(ENV_WEBNOVEL_CLAUDE_HOME) or os.environ.get(ENV_CLAUDE_HOME)
+    raw = (
+        os.environ.get(ENV_WEBNOVEL_ANTIGRAVITY_HOME)
+        or os.environ.get(ENV_ANTIGRAVITY_HOME)
+        or os.environ.get(ENV_WEBNOVEL_CLAUDE_HOME)
+        or os.environ.get(ENV_CLAUDE_HOME)
+    )
     if raw:
         try:
             return normalize_windows_path(raw).expanduser().resolve()
         except Exception:
             return normalize_windows_path(raw).expanduser()
-    return (Path.home() / ".claude").resolve()
+
+    gemini_path = (Path.home() / ".gemini" / "antigravity").resolve()
+    if gemini_path.is_dir():
+        return gemini_path
+
+    claude_path = (Path.home() / ".claude").resolve()
+    if claude_path.is_dir():
+        return claude_path
+
+    return gemini_path
 
 
 def _global_registry_path() -> Path:
@@ -135,7 +154,7 @@ def _resolve_project_root_from_global_registry(
         return None
 
     hints: list[Path] = []
-    env_ws = os.environ.get(ENV_CLAUDE_PROJECT_DIR)
+    env_ws = os.environ.get(ENV_ANTIGRAVITY_PROJECT_DIR) or os.environ.get(ENV_CLAUDE_PROJECT_DIR)
     if env_ws:
         hints.append(normalize_windows_path(env_ws).expanduser())
     if workspace_hint is not None:
@@ -208,7 +227,7 @@ def update_global_registry_current_project(
 
     ws = workspace_root
     if ws is None:
-        env_ws = os.environ.get(ENV_CLAUDE_PROJECT_DIR)
+        env_ws = os.environ.get(ENV_ANTIGRAVITY_PROJECT_DIR) or os.environ.get(ENV_CLAUDE_PROJECT_DIR)
         if env_ws:
             ws = normalize_windows_path(env_ws).expanduser()
     if ws is None:
@@ -256,7 +275,8 @@ def _is_project_root(path: Path) -> bool:
 def _pointer_candidates(cwd: Path, *, stop_at: Optional[Path] = None) -> Iterable[Path]:
     """Yield candidate pointer files from cwd up to parents (bounded by stop_at when provided)."""
     for candidate in (cwd, *cwd.parents):
-        yield candidate / CURRENT_PROJECT_POINTER_REL
+        yield candidate / ".agents" / ".webnovel-current-project"
+        yield candidate / ".claude" / ".webnovel-current-project"
         if stop_at is not None and candidate == stop_at:
             break
 
@@ -300,9 +320,9 @@ def _resolve_unique_child_project_root(root: Path) -> Optional[Path]:
 
 
 def _find_workspace_root_with_claude(start: Path) -> Optional[Path]:
-    """Find nearest ancestor containing `.claude/`."""
+    """Find nearest ancestor containing `.agents/` or `.claude/`."""
     for candidate in (start, *start.parents):
-        if (candidate / ".claude").is_dir():
+        if (candidate / ".agents").is_dir() or (candidate / ".claude").is_dir():
             return candidate
     return None
 
@@ -329,10 +349,13 @@ def write_current_project_pointer(project_root: Path, *, workspace_root: Optiona
 
     pointer_file: Optional[Path] = None
     if ws_root is not None:
-        # 仅当工作区内已经存在 `.claude/` 时才写入指针，避免在任意目录下“凭空创建 .claude/”。
-        if (ws_root / ".claude").is_dir():
+        # 仅当工作区内已经存在 `.agents/` 或 `.claude/` 时才写入指针，避免在任意目录下“凭空创建”。
+        is_agents = (ws_root / ".agents").is_dir()
+        is_claude = (ws_root / ".claude").is_dir()
+        if is_agents or is_claude:
             try:
-                pointer_file = ws_root / CURRENT_PROJECT_POINTER_REL
+                pointer_dir = ".agents" if is_agents else ".claude"
+                pointer_file = ws_root / pointer_dir / ".webnovel-current-project"
                 pointer_file.write_text(str(root), encoding="utf-8")
             except Exception:
                 pointer_file = None
@@ -405,9 +428,9 @@ def resolve_project_root(explicit_project_root: Optional[str] = None, *, cwd: Op
         return pointer_root
 
     # 用户级 registry fallback（仅在“有上下文提示”时启用，避免误命中）
-    # - 若 CLAUDE_PROJECT_DIR 存在：认为 Claude Code 提供了工作区上下文
+    # - 若 ANTIGRAVITY_PROJECT_DIR 或 CLAUDE_PROJECT_DIR 存在：认为提供了工作区上下文
     # - 否则仅在 base 位于某个已记录 workspace 内时启用（前缀匹配）
-    allow_last_used = bool(os.environ.get(ENV_CLAUDE_PROJECT_DIR))
+    allow_last_used = bool(os.environ.get(ENV_ANTIGRAVITY_PROJECT_DIR)) or bool(os.environ.get(ENV_CLAUDE_PROJECT_DIR))
     reg_root = _resolve_project_root_from_global_registry(
         base,
         workspace_hint=None,

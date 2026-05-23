@@ -284,8 +284,8 @@ def init_project(
     cultivation_subtiers: str = "",
 ) -> None:
     project_path = Path(project_dir).expanduser().resolve()
-    if ".claude" in project_path.parts:
-        raise SystemExit("Refusing to initialize a project inside .claude. Choose a different directory.")
+    if ".claude" in project_path.parts or ".agents" in project_path.parts:
+        raise SystemExit("Refusing to initialize a project inside .claude or .agents. Choose a different directory.")
     genre = _validate_initial_genre_source(genre)
     project_path.mkdir(parents=True, exist_ok=True)
 

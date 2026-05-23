@@ -19,7 +19,13 @@ New-Item -ItemType Directory -Path $tmpRoot -Force | Out-Null
 
 $env:TMP = $tmpRoot
 $env:TEMP = $tmpRoot
-$env:PYTHONPATH = ".claude/scripts"
+if (Test-Path ".agents/scripts") {
+    $env:PYTHONPATH = ".agents/scripts"
+} elseif (Test-Path ".claude/scripts") {
+    $env:PYTHONPATH = ".claude/scripts"
+} else {
+    $env:PYTHONPATH = "scripts"
+}
 
 # 避免 Windows 下 basetemp 目录因权限/残留锁导致 rm_rf 失败（会让所有用例在 setup 阶段直接报错）。
 $runId = Get-Date -Format "yyyyMMdd_HHmmssfff"
@@ -53,17 +59,24 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 if ($Mode -eq "smoke") {
-    python -m pytest -q `
-        .claude/scripts/data_modules/tests/test_extract_chapter_context.py `
-        .claude/scripts/data_modules/tests/test_rag_adapter.py `
-        --basetemp $baseTemp `
-        --no-cov `
-        -p no:cacheprovider
+    $testPath1 = "scripts/data_modules/tests/test_extract_chapter_context.py"
+    $testPath2 = "scripts/data_modules/tests/test_rag_adapter.py"
+    if (Test-Path ".agents/scripts") {
+        $testPath1 = ".agents/scripts/data_modules/tests/test_extract_chapter_context.py"
+        $testPath2 = ".agents/scripts/data_modules/tests/test_rag_adapter.py"
+    } elseif (Test-Path ".claude/scripts") {
+        $testPath1 = ".claude/scripts/data_modules/tests/test_extract_chapter_context.py"
+        $testPath2 = ".claude/scripts/data_modules/tests/test_rag_adapter.py"
+    }
+    python -m pytest -q $testPath1 $testPath2 --basetemp $baseTemp --no-cov -p no:cacheprovider -p asyncio
     exit $LASTEXITCODE
 }
 
-python -m pytest -q `
-    .claude/scripts/data_modules/tests `
-    --basetemp $baseTemp `
-    -p no:cacheprovider
+$testPathDir = "scripts/data_modules/tests"
+if (Test-Path ".agents/scripts") {
+    $testPathDir = ".agents/scripts/data_modules/tests"
+} elseif (Test-Path ".claude/scripts") {
+    $testPathDir = ".claude/scripts/data_modules/tests"
+}
+python -m pytest -q $testPathDir --basetemp $baseTemp -p no:cacheprovider -p asyncio
 exit $LASTEXITCODE

@@ -18,13 +18,27 @@ from runtime_compat import normalize_windows_path
 from .context_weights import TEMPLATE_WEIGHTS_DYNAMIC_DEFAULT
 
 def _get_user_claude_root() -> Path:
-    raw = os.environ.get("WEBNOVEL_CLAUDE_HOME") or os.environ.get("CLAUDE_HOME")
+    raw = (
+        os.environ.get("WEBNOVEL_ANTIGRAVITY_HOME")
+        or os.environ.get("ANTIGRAVITY_HOME")
+        or os.environ.get("WEBNOVEL_CLAUDE_HOME")
+        or os.environ.get("CLAUDE_HOME")
+    )
     if raw:
         try:
             return normalize_windows_path(raw).expanduser().resolve()
         except Exception:
             return normalize_windows_path(raw).expanduser()
-    return (Path.home() / ".claude").resolve()
+
+    gemini_path = (Path.home() / ".gemini" / "antigravity").resolve()
+    if gemini_path.is_dir():
+        return gemini_path
+
+    claude_path = (Path.home() / ".claude").resolve()
+    if claude_path.is_dir():
+        return claude_path
+
+    return gemini_path
 
 
 def _load_dotenv_file(env_path: Path, *, override: bool = False) -> bool:
