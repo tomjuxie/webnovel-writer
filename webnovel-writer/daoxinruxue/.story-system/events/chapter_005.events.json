@@ -1,0 +1,31 @@
+[
+  {
+    "event_id": "evt-ch0005-001",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "陈明",
+    "payload": {
+      "status": "文胆碎尽，化玉殉道牺牲"
+    }
+  },
+  {
+    "event_id": "evt-ch0005-002",
+    "chapter": 5,
+    "event_type": "power_breakthrough",
+    "subject": "顾道儒",
+    "payload": {
+      "realm": "解锁《圣贤道藏》论语第一章，首次写诵‘志士仁人，无求生以害仁，有杀身以成仁’，金雷浩然气一举汽化两百蛮兵前锋，儒骨彻底觉醒"
+    }
+  },
+  {
+    "event_id": "evt-ch0005-003",
+    "chapter": 5,
+    "event_type": "open_loop_created",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "西城墙深处，一尊散发恐怖气血长河的蛮将虚影睁眼，锁定了临渊书院顾道儒所在方向，危机仍在持续。",
+      "loop_type": "危机钩",
+      "urgency": 90.0
+    }
+  }
+]

@@ -1,31 +1,15 @@
 {
   "meta": {
     "schema_version": "story-system/v1",
-    "contract_type": "MASTER_SETTING",
+    "contract_type": "CHAPTER_BRIEF",
     "generator_version": "phase1",
-    "query": "蛮族主将赫连焰带亲卫逼入临渊书院，与知行反噬后的顾道儒正面对峙，立下生死赌约"
+    "chapter": 4
   },
-  "route": {
-    "primary_genre": "玄幻退婚流",
-    "canonical_genre": "玄幻",
-    "route_source": "explicit_genre_fallback",
-    "genre_filter": "玄幻",
-    "recommended_base_tables": [
-      "命名规则",
-      "人设与关系",
-      "金手指与设定"
-    ],
-    "recommended_dynamic_tables": [
-      "桥段套路",
-      "爽点与节奏",
-      "场景写法"
-    ]
+  "override_allowed": {
+    "chapter_focus": "书院大门被蛮兵蛮力冲破，老夫子陈明文胆殉道牺牲，主角顾道儒道心被彻底震碎，首次写出并诵读华夏经典论语选段，引动天地浩然气重创蛮兵，开始因道入世。"
   },
-  "master_constraints": {
-    "core_tone": "先压后爆",
-    "pacing_strategy": "三章内必须有首次有效反打"
-  },
-  "base_context": [
+  "chapter_directive": {},
+  "dynamic_context": [
     {
       "编号": "SP-004",
       "适用技能": "write|plan",
@@ -109,6 +93,52 @@
       "_reasoning_rule": "玄幻",
       "_chapter_keyword_score": 0,
       "_combined_rank_score": 0.0
+    },
+    {
+      "编号": "TR-001",
+      "适用技能": "write|plan",
+      "分类": "桥段",
+      "层级": "知识补充",
+      "关键词": "退婚流|三年之约|弃徒反击|莫欺少年穷",
+      "意图与同义词": "退婚流怎么写|被逐出后怎么反击|三年之约怎么立",
+      "适用题材": "玄幻|仙侠",
+      "大模型指令": "羞辱要现实且势利，反击先立誓和蓄力，不要刚被退婚就无代价秒翻盘。",
+      "核心摘要": "退婚或逐出型桥段要先把尊严踩到底，再用三年之约或延迟兑现把压抑转成长线期待。",
+      "详细展开": "关键不是当场战力碾压，而是让读者看到主角被逼到绝境后如何收回体面并锁定未来反杀目标。",
+      "桥段名称": "退婚三年之约",
+      "前置铺垫": "当众羞辱|身份贬低|旧关系断裂",
+      "核心爽点": "尊严找回|长线逆袭承诺",
+      "转折设计": "通过血脉觉醒|隐藏传承|旧物认主等方式埋下后续兑现点",
+      "反套路变种": "改成女主主动休夫或主角反手写下断绝书，让桥段不只停留在被动受辱",
+      "毒点": "",
+      "_table": "桥段套路",
+      "_priority_rank": 999,
+      "_reasoning_rule": "玄幻",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
+    },
+    {
+      "编号": "TR-003",
+      "适用技能": "write|plan",
+      "分类": "桥段",
+      "层级": "知识补充",
+      "关键词": "打脸权威|权威质疑|当众证明|专家翻车",
+      "意图与同义词": "被权威质疑怎么办|当众证明自己|专家看不起后反转",
+      "适用题材": "全部",
+      "大模型指令": "让质疑建立在规则、证据或经验上，再用更硬的实绩反转，避免围观群众和权威集体降智。",
+      "核心摘要": "打脸权威桥段要先让权威的判断看似合理，再用更高维的信息或能力在众目睽睽下推翻结论。",
+      "详细展开": "最好让主角的证明方式直接改写场内规则，例如现场解决难题、拿出关键证据或完成所有人以为做不到的操作。",
+      "桥段名称": "权威质疑后当场打脸",
+      "前置铺垫": "规则压制|身份不被承认|权威公开否定",
+      "核心爽点": "规则翻盘|集体失声|权威尴尬",
+      "转折设计": "先给读者一个假结束点，再追加更高层级的证明完成补刀",
+      "反套路变种": "把最终尴尬留给旁观者和制度本身，让权威不是单纯被骂而是被事实架空",
+      "毒点": "",
+      "_table": "桥段套路",
+      "_priority_rank": 999,
+      "_reasoning_rule": "玄幻",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
     }
   ],
   "source_trace": [
@@ -178,14 +208,10 @@
       "inject_target": "CHAPTER_BRIEF.writing_guidance"
     }
   ],
-  "override_policy": {
-    "locked": [
-      "route.primary_genre",
-      "master_constraints.core_tone"
-    ],
-    "append_only": [
-      "anti_patterns"
-    ],
-    "override_allowed": []
+  "reasoning": {
+    "genre": "玄幻",
+    "inject_target": "CHAPTER_BRIEF.writing_guidance",
+    "style_priority": "热血冲突 > 冷硬算计 > 史诗铺陈",
+    "pacing_strategy": "快推强爆 小境界短写 大冲突长写"
   }
 }

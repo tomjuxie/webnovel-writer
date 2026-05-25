@@ -1,0 +1,46 @@
+[
+  {
+    "event_id": "ch007_ev001",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "description": "在知行反噬未愈的状态下以道家御风步硬撑赫连焰三轮攻势，最终退至白玉雕像前，圣贤道藏开启论语子罕篇新章",
+      "old_state": "知行反噬中接受战誓赌约",
+      "new_state": "引动论语子罕篇，凝聚金色意志之壁挡住赫连焰战戟，战后滑坐白玉雕像旁"
+    }
+  },
+  {
+    "event_id": "ch007_ev002",
+    "chapter": 7,
+    "event_type": "power_breakthrough",
+    "subject": "顾道儒",
+    "payload": {
+      "description": "圣贤道藏解锁论语·子罕篇：三军可夺帅也，匹夫不可夺志也。引动方式为金色意志之壁（防御型），与第五章天河（攻击型）形成差异化展现",
+      "classic_unlocked": "论语·子罕篇：三军可夺帅也，匹夫不可夺志也",
+      "manifestation_type": "意志之壁（防御）"
+    }
+  },
+  {
+    "event_id": "ch007_ev003",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "墨玄机",
+    "payload": {
+      "description": "以连珠三弩反击赫连焰颈侧、肩甲、护胫三处薄弱点，弩箭被气血壁垒弹开；随后被赫连焰气血冲击波卷入侧廊废木堆，机甲铁架压断两根肋骨",
+      "old_state": "机甲左翼残损、虎口撕裂、并肩顾道儒",
+      "new_state": "压入废木堆、两根肋骨断裂、不失意志"
+    }
+  },
+  {
+    "event_id": "ch007_ev004",
+    "chapter": 7,
+    "event_type": "promise_paid_off",
+    "subject": "赫连焰",
+    "payload": {
+      "description": "赫连焰战戟被顾道儒意志之壁弹回，右手微颤，正式承认并遵守战誓，带亲卫撤出书院，临渊城直接威胁暂解",
+      "promise_ref": "ch006_ev003",
+      "outcome": "赫连焰承认失败，率亲卫离去"
+    }
+  }
+]

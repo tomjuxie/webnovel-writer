@@ -1,0 +1,24 @@
+[
+  {
+    "event_id": "ev_002_01",
+    "chapter": 2,
+    "event_type": "character_state_changed",
+    "subject": "墨玄机",
+    "payload": {
+      "name": "墨玄机",
+      "role": "女主角",
+      "tier": "主角",
+      "description": "墨家内门弟子，理性且坚硬的机关术士，驾驭折叠战甲，死守机甲图纸入城。"
+    }
+  },
+  {
+    "event_id": "ev_002_02",
+    "chapter": 2,
+    "event_type": "open_loop_created",
+    "subject": "空城死局",
+    "payload": {
+      "action": "守将赵将军在昨夜三更秘密带走全部三千精锐撤离，临渊城成为空城。",
+      "urgency": 80
+    }
+  }
+]

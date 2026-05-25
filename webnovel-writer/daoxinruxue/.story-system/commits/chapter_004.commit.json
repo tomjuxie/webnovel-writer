@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 4,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_004.json",
+    "review": "chapter_004.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "清晨雨停 | 蛮军包围临渊 | 狂澜压境",
+      "白骨图腾 | 蛮神暴熊虚影 | 冲撞防护大阵",
+      "陈夫子青衫 | 陆平破碎血衣 | 领诵浩然正气",
+      "顾道儒 | 觉醒儒血 | 圣贤道藏 | 融汇真气与浩然正气",
+      "重型铜门破 | 战兽撞击 | 战狼冲锋"
+    ],
+    "covered_nodes": [
+      "清晨雨停 | 蛮军包围临渊 | 狂澜压境",
+      "白骨图腾 | 蛮神暴熊虚影 | 冲撞防护大阵",
+      "陈夫子青衫 | 陆平破碎血衣 | 领诵浩然正气",
+      "顾道儒 | 觉醒儒血 | 圣贤道藏 | 融汇真气与浩然正气",
+      "重型铜门破 | 战兽撞击 | 战狼冲锋"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 4,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "0个问题：0个阻断，0个高优"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "清晨雨停 | 蛮军包围临渊 | 狂澜压境",
+      "白骨图腾 | 蛮神暴熊虚影 | 冲撞防护大阵",
+      "陈夫子青衫 | 陆平破碎血衣 | 领诵浩然正气",
+      "顾道儒 | 觉醒儒血 | 圣贤道藏 | 融汇真气与浩然正气",
+      "重型铜门破 | 战兽撞击 | 战狼冲锋"
+    ],
+    "covered_nodes": [
+      "清晨雨停 | 蛮军包围临渊 | 狂澜压境",
+      "白骨图腾 | 蛮神暴熊虚影 | 冲撞防护大阵",
+      "陈夫子青衫 | 陆平破碎血衣 | 领诵浩然正气",
+      "顾道儒 | 觉醒儒血 | 圣贤道藏 | 融汇真气与浩然正气",
+      "重型铜门破 | 战兽撞击 | 战狼冲锋"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch0004-001",
+      "chapter": 4,
+      "event_type": "power_breakthrough",
+      "subject": "顾道儒",
+      "payload": {
+        "realm": "解锁《圣贤道藏》论语第一章，融汇真气与浩然气，战力暴涨达到远超练气二层限界的极限伟力"
+      }
+    },
+    {
+      "event_id": "evt-ch0004-002",
+      "chapter": 4,
+      "event_type": "open_loop_created",
+      "subject": "顾道儒",
+      "payload": {
+        "content": "东城门爆碎，蛮兵骁骑杀入，顾道儒金瞳绽放如何力敌千军",
+        "loop_type": "危机钩",
+        "urgency": 90.0
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "field": "power.layer",
+      "old": 1,
+      "new": 2
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "entity_type": "角色",
+      "action": "upsert",
+      "is_protagonist": true,
+      "payload": {
+        "name": "顾道儒"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "顾道儒",
+      "type": "角色",
+      "mentions": [
+        "顾道儒",
+        "儒生"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "陈明",
+      "type": "角色",
+      "mentions": [
+        "陈夫子",
+        "老夫子",
+        "陈明"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "墨玄机",
+      "type": "角色",
+      "mentions": [
+        "墨玄机"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 28,
+      "location": "临渊城外及城头",
+      "summary": "清晨破晓，蛮军主力合围临渊。交代昨日深夜墨玄机排布连弩与拒马艰难击退蛮兵夜袭前锋。",
+      "characters": [
+        "墨玄机"
+      ]
+    },
+    {
+      "index": 2,
+      "start_line": 29,
+      "end_line": 42,
+      "location": "临渊城防大阵下方",
+      "summary": "蛮军巨鼓擂动，蛮将祭出九丈白骨蛮神图腾。狂暴的太古暴熊虚影狂轰城防光幕，大阵剧烈震颤布满蜘蛛网般的碎裂痕迹，守军将士惶恐绝望。",
+      "characters": []
+    },
+    {
+      "index": 3,
+      "start_line": 43,
+      "end_line": 74,
+      "location": "东城门铜门后",
+      "summary": "临渊书院山长陈老夫子身着一尘不染青色儒衫，双膝平铺陆平血衣，率两百学子与两百名老弱残军在废墟死守，领诵信念‘二者不可得兼，我辈当舍生而取义’，浩然正气化为本源护罩防守东门。",
+      "characters": [
+        "陈明"
+      ]
+    },
+    {
+      "index": 4,
+      "start_line": 75,
+      "end_line": 108,
+      "location": "东城门石阶上",
+      "summary": "顾道儒石阶旁目睹一切大恸，旁观者道心彻底震碎，以儒血意志轰开记忆神殿青铜大门，解锁《论语》第一章‘学而时习之’。主殿金石古钟自鸣，体内的温润道家真气与第一缕浩瀚儒家浩然正气激烈交融，获得天地伟力强力加持，金紫双芒在眼底闪动。",
+      "characters": [
+        "顾道儒"
+      ]
+    },
+    {
+      "index": 5,
+      "start_line": 109,
+      "end_line": 126,
+      "location": "东城门洞",
+      "summary": "蛮神图腾强力撞碎铜铸大门，漫天铜皮铁屑狂飙。蛮兵悍骑与赤眼战狼面色残忍咆哮冲锋杀入，决战瞬间引爆。顾道儒缓缓抬首，璀璨金瞳骤然大亮。",
+      "characters": [
+        "顾道儒"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "quest",
+  "summary_text": "大周延平十七年九月三日清晨，冷冽秋雨刚停。蛮族主力铁流已合围临渊城三面。万幸昨日深夜墨玄机连夜排布连弩与拒马将蛮兵前锋击退。然而蛮军动用九丈白骨蛮神祖灵图腾狂轰城防大阵，大阵布满裂痕，濒临破裂。面对死局，东城门后陈老夫子陈明率领两百儒生与两百名老弱兵丁齐诵大义之言，表达‘我辈当舍生而取义’，以血肉之躯筑屏障阻敌。城门石阶旁的顾道儒目睹惨状大恸，其超然避世道心彻底震碎，儒血意志觉醒轰开脑海记忆神殿偏门，解锁《论语》第一章并引动金石古钟自鸣，真气浩然气猛烈交融获得天地圣贤加持，瞳孔深处金紫光芒闪烁。与此同时，蛮神图腾轰碎铜铸东城门，蛮兵骁骑与战狼席卷而入，大战瞬间爆发。顾道儒金瞳大放！",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 2,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_002.json",
+    "review": "chapter_002.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "墨玄机 | 驾驭折叠战甲 | 拼死朝临渊城东城门疾驰奔突",
+      "蛮族铁骑 | 挥舞巨斧重击 | 掩护城门数名儒门凡人士卒",
+      "顾道儒 | 暗中施展道家御风术 | 稍微偏转了蛮将砸向墨玄机要害的巨锤",
+      "墨玄机 | 借助反震力冲入城内 | 东城门在千钧一发间重重关闭",
+      "顾道儒与墨玄机 | 在城门后 | 发生第一次命运的对视"
+    ],
+    "covered_nodes": [
+      "墨玄机 | 驾驭折叠战甲 | 拼死朝临渊城东城门疾驰奔突",
+      "蛮族铁骑 | 挥舞巨斧重击 | 掩护城门数名儒门凡人士卒",
+      "顾道儒 | 暗中施展道家御风术 | 稍微偏转了蛮将砸向墨玄机要害的巨锤",
+      "墨玄机 | 借助反震力冲入城内 | 东城门在千钧一发间重重关闭",
+      "顾道儒与墨玄机 | 在城门后 | 发生第一次命运的对视"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "issues": [],
+    "summary": "第2章正文起草质量极佳，完美完成了章节结构节点（CBN/CPNs/CEN），叙事节奏张弛有度，人物动机连贯。更重要的是，本章严格遵守了‘诸子百家圣贤道藏’的全局限制与首发权规定，没有任何子曰等经典出现，其他背景衬托完全契合大纲，没有任何阻断性问题。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "墨玄机 | 驾驭折叠战甲 | 拼死朝临渊城东城门疾驰奔突",
+      "蛮族铁骑 | 挥舞巨斧重击 | 掩护城门数名儒门凡人士卒",
+      "顾道儒 | 暗中施展道家御风术 | 稍微偏转了蛮将砸向墨玄机要害的巨锤",
+      "墨玄机 | 借助反震力冲入城内 | 东城门在千钧一发间重重关闭",
+      "顾道儒与墨玄机 | 在城门后 | 发生第一次命运的对视"
+    ],
+    "covered_nodes": [
+      "墨玄机 | 驾驭折叠战甲 | 拼死朝临渊城东城门疾驰奔突",
+      "蛮族铁骑 | 挥舞巨斧重击 | 掩护城门数名儒门凡人士卒",
+      "顾道儒 | 暗中施展道家御风术 | 稍微偏转了蛮将砸向墨玄机要害的巨锤",
+      "墨玄机 | 借助反震力冲入城内 | 东城门在千钧一发间重重关闭",
+      "顾道儒与墨玄机 | 在城门后 | 发生第一次命运的对视"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "ev_002_01",
+      "chapter": 2,
+      "event_type": "character_state_changed",
+      "subject": "墨玄机",
+      "payload": {
+        "name": "墨玄机",
+        "role": "女主角",
+        "tier": "主角",
+        "description": "墨家内门弟子，理性且坚硬的机关术士，驾驭折叠战甲，死守机甲图纸入城。"
+      }
+    },
+    {
+      "event_id": "ev_002_02",
+      "chapter": 2,
+      "event_type": "open_loop_created",
+      "subject": "空城死局",
+      "payload": {
+        "action": "守将赵将军在昨夜三更秘密带走全部三千精锐撤离，临渊城成为空城。",
+        "urgency": 80
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "realm": "道门练气",
+      "layer": 2,
+      "location": "临渊城东城门洞"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "墨玄机",
+      "name": "墨玄机",
+      "type": "角色",
+      "role": "女主角",
+      "tier": "主角",
+      "description": "墨家内门弟子，理智且坚毅的机关术士。"
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "墨玄机",
+      "name": "墨玄机",
+      "type": "角色",
+      "mentions": [
+        "墨玄机",
+        "女子"
+      ]
+    },
+    {
+      "id": "顾道儒",
+      "name": "顾道儒",
+      "type": "角色",
+      "mentions": [
+        "顾道儒",
+        "儒生"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 200,
+      "location": "临渊城东城门洞",
+      "summary": "墨玄机驾机甲突围东城门，顾道儒暗施御风术相助使巨锤偏转，墨玄机突围进城后惊闻守军军帅早已撤空成为死局。",
+      "characters": [
+        "顾道儒",
+        "墨玄机"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "",
+  "summary_text": "蛮兵逼近临渊城，守军与书院儒生惊恐关门。墨家弟子墨玄机驾驭损毁机甲拼死突围，遭蛮兵炼体战士围攻阻截，掩护士卒惨死。顾道儒隐在东城门暗角，因唇亡齿寒暗施道家御风指偏转蛮兵万钧重锤支点。墨玄机敏锐借力闪身进城，城门紧闭。二人门后首次对视。随后内城传来噩耗，守军主将已于昨夜秘撤全部天甲军精锐，将临渊城彻底遗弃成为死城，图纸虽到但城池危在旦夕。",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

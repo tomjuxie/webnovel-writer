@@ -32,9 +32,9 @@
     "cultivation_subtiers": "一至九境"
   },
   "progress": {
-    "current_chapter": 1,
-    "total_words": 2845,
-    "last_updated": "2026-05-23 17:41:51",
+    "current_chapter": 7,
+    "total_words": 21344,
+    "last_updated": "2026-05-25 16:55:05",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -45,14 +45,20 @@
       }
     ],
     "chapter_status": {
-      "1": "chapter_committed"
+      "1": "chapter_committed",
+      "2": "chapter_committed",
+      "3": "chapter_committed",
+      "4": "chapter_committed",
+      "5": "chapter_committed",
+      "6": "chapter_committed",
+      "7": "chapter_committed"
     }
   },
   "protagonist_state": {
     "name": "顾道儒",
     "power": {
-      "realm": "",
-      "layer": 1,
+      "realm": "道门练气/儒门觉醒",
+      "layer": 2,
       "bottleneck": ""
     },
     "location": {
@@ -65,7 +71,8 @@
       "cooldown": 0,
       "skills": []
     },
-    "attributes": {}
+    "attributes": {},
+    "realm": null
   },
   "relationships": {},
   "disambiguation_warnings": [],
@@ -82,12 +89,32 @@
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 0,
+    "last_quest_chapter": 5,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 0,
-    "history": []
+    "chapters_since_switch": 2,
+    "history": [
+      {
+        "chapter": 4,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 5,
+        "dominant": "quest"
+      }
+    ]
   },
-  "entity_state": {}
+  "entity_state": {
+    "顾道儒": {
+      "realm": null,
+      "power": {
+        "layer": 2,
+        "realm": "道门练气/儒门觉醒"
+      }
+    },
+    "陈明": {
+      "status": "化玉殉道"
+    }
+  }
 }

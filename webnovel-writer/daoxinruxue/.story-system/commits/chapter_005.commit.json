@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 5,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_005.json",
+    "review": "chapter_005.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "蛮兵巨斧砸破书院大门 | 铜甲巨蛮战士强行闯入 | 书院年轻学子溃逃死伤",
+      "陈老夫子陈明 | 踏雨上前毅然燃烧文胆以心血写就战诗 | 化作乳白璀璨浩然屏障阻断蛮兵",
+      "陈明老夫子 | 文胆碎尽化作白玉雕像屹立不倒 | 其心血顺风雨溅落在顾道儒手背烫醒儒骨",
+      "顾道儒 | 跨过玉像虚空按指诵读论语志士仁人 | 虚空凝结金色雷霆浩然天河",
+      "数百蛮兵先锋与器械 | 在金色浩然气冲刷下 | 汽化消融尽化为满地焦黑飞灰"
+    ],
+    "covered_nodes": [
+      "蛮兵巨斧砸破书院大门 | 铜甲巨蛮战士强行闯入 | 书院年轻学子溃逃死伤",
+      "陈老夫子陈明 | 踏雨上前毅然燃烧文胆以心血写就战诗 | 化作乳白璀璨浩然屏障阻断蛮兵",
+      "陈明老夫子 | 文胆碎尽化作白玉雕像屹立不倒 | 其心血顺风雨溅落在顾道儒手背烫醒儒骨",
+      "顾道儒 | 跨过玉像虚空按指诵读论语志士仁人 | 虚空凝结金色雷霆浩然天河",
+      "数百蛮兵先锋与器械 | 在金色浩然气冲刷下 | 汽化消融尽化为满地焦黑飞灰"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 5,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "0个问题：0个阻断，0个高优"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "蛮兵巨斧砸破书院大门 | 铜甲巨蛮战士强行闯入 | 书院年轻学子溃逃死伤",
+      "陈老夫子陈明 | 踏雨上前毅然燃烧文胆以心血写就战诗 | 化作乳白璀璨浩然屏障阻断蛮兵",
+      "陈明老夫子 | 文胆碎尽化作白玉雕像屹立不倒 | 其心血顺风雨溅落在顾道儒手背烫醒儒骨",
+      "顾道儒 | 跨过玉像虚空按指诵读论语志士仁人 | 虚空凝结金色雷霆浩然天河",
+      "数百蛮兵先锋与器械 | 在金色浩然气冲刷下 | 汽化消融尽化为满地焦黑飞灰"
+    ],
+    "covered_nodes": [
+      "蛮兵巨斧砸破书院大门 | 铜甲巨蛮战士强行闯入 | 书院年轻学子溃逃死伤",
+      "陈老夫子陈明 | 踏雨上前毅然燃烧文胆以心血写就战诗 | 化作乳白璀璨浩然屏障阻断蛮兵",
+      "陈明老夫子 | 文胆碎尽化作白玉雕像屹立不倒 | 其心血顺风雨溅落在顾道儒手背烫醒儒骨",
+      "顾道儒 | 跨过玉像虚空按指诵读论语志士仁人 | 虚空凝结金色雷霆浩然天河",
+      "数百蛮兵先锋与器械 | 在金色浩然气冲刷下 | 汽化消融尽化为满地焦黑飞灰"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch0005-001",
+      "chapter": 5,
+      "event_type": "character_state_changed",
+      "subject": "陈明",
+      "payload": {
+        "status": "文胆碎尽，化玉殉道牺牲"
+      }
+    },
+    {
+      "event_id": "evt-ch0005-002",
+      "chapter": 5,
+      "event_type": "power_breakthrough",
+      "subject": "顾道儒",
+      "payload": {
+        "realm": "解锁《圣贤道藏》论语第一章，首次写诵‘志士仁人，无求生以害仁，有杀身以成仁’，金雷浩然气一举汽化两百蛮兵前锋，儒骨彻底觉醒"
+      }
+    },
+    {
+      "event_id": "evt-ch0005-003",
+      "chapter": 5,
+      "event_type": "open_loop_created",
+      "subject": "顾道儒",
+      "payload": {
+        "content": "西城墙深处，一尊散发恐怖气血长河的蛮将虚影睁眼，锁定了临渊书院顾道儒所在方向，危机仍在持续。",
+        "loop_type": "危机钩",
+        "urgency": 90.0
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "field": "power.realm",
+      "old": "道门练气",
+      "new": "道门练气/儒门觉醒"
+    },
+    {
+      "entity_id": "陈明",
+      "field": "status",
+      "old": "正常",
+      "new": "化玉殉道"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "entity_type": "角色",
+      "action": "upsert",
+      "is_protagonist": true,
+      "payload": {
+        "name": "顾道儒"
+      }
+    },
+    {
+      "entity_id": "陈明",
+      "entity_type": "角色",
+      "action": "upsert",
+      "payload": {
+        "name": "陈明",
+        "status": "化玉殉道"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "顾道儒",
+      "type": "角色",
+      "mentions": [
+        "顾道儒",
+        "青衫身影",
+        "儒生"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "陈明",
+      "type": "角色",
+      "mentions": [
+        "陈夫子",
+        "老夫子",
+        "陈明"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "墨玄机",
+      "type": "角色",
+      "mentions": [
+        "墨玄机"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 115,
+      "location": "临渊书院大门洞",
+      "summary": "交代墨玄机驾驭折叠机甲与残军败退防守书院。蛮将带兵砸碎木门闯入，年轻学子惊恐败退，两名儒生惨死。陈老夫子踏雨上前燃烧文胆，以心血写就战诗慷慨殉道，化为卡在大门的白玉雕像。老夫子余血溅在顾道儒左手背，彻底烫醒其儒骨并震碎旁观者道心。",
+      "characters": [
+        "顾道儒",
+        "陈明",
+        "墨玄机"
+      ]
+    },
+    {
+      "index": 2,
+      "start_line": 116,
+      "end_line": 198,
+      "location": "临渊书院门前",
+      "summary": "顾道儒走至夫子雕像前，儒骨觉醒，双眸金紫交织，首次写下并诵读《论语》‘志士仁人，无求生以害仁，有杀身以成仁’。十四个黄金大字凝结金色雷霆天河自九天落下，冲刷城门洞，将蛮将百夫长连同两百蛮兵精锐和重型器械瞬间消融汽化。章末风雨中传来墨玄机在偏院拼死守御的机甲连弩机弩怒吼声，且蛮主虚影自西城墙阴冷锁定书院。",
+      "characters": [
+        "顾道儒"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "quest",
+  "summary_text": "蛮兵骁骑顺东城门长驱直入，墨玄机驾驭受损机甲掩护溃军退守临渊书院。蛮将带兵撞破书院木门强行闯入，年轻学子惊恐败退，防线崩溃。陈老夫子在风雨中挺立，毅然燃烧四十年儒门文胆，以本源心血虚空手书战诗慷慨殉道，化为卡在门洞的白玉雕像。殉道血珠落在顾道儒手背，烫醒其儒骨并彻底震碎其避世道心。顾道儒走出，真气浩然气相融，金瞳闪耀，首次引动《论语》‘志士仁人，无求生以害仁，有杀身以成仁’虚空凝结黄金大字。浩然金色天河自雷云砸下，将蛮将连同两百名蛮兵前锋瞬间汽化消融。章末风雨中依余传来远处偏线里墨玄机率领剩余工匠死守的连弩机甲轰鸣声，且有恐怖蛮族主将虚影越过废墟，锁定了书院方向。",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

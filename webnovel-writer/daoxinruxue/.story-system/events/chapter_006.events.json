@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "ch006_ev001",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "description": "知行反噬后经脉灼痛，以白玉雕像为支撑勉强立身，圣贤道藏竹简发出轻颤预示下一步解锁",
+      "old_state": "刚引动论语天河，知行反噬瞬间涌现",
+      "new_state": "强撑身形，接受赫连焰战誓赌约"
+    }
+  },
+  {
+    "event_id": "ch006_ev002",
+    "chapter": 6,
+    "event_type": "open_loop_created",
+    "subject": "赫连焰",
+    "payload": {
+      "description": "蛮族炎州火炼一脉战王赫连焰正式出场，练体六境化炉，赤眸赤铁战戟，率十二亲卫入书院",
+      "open_question": "赫连焰战誓赌约——顾道儒能否从其手中走出书院？"
+    }
+  },
+  {
+    "event_id": "ch006_ev003",
+    "chapter": 6,
+    "event_type": "promise_created",
+    "subject": "赫连焰",
+    "payload": {
+      "description": "赫连焰向顾道儒立下战誓：若顾道儒能从其手中走出书院，三年内蛮军不踏入中州；若顾道儒败，城中活人尽屠",
+      "promise_terms": "顾道儒胜则蛮军退三年；顾道儒败则全城屠城"
+    }
+  },
+  {
+    "event_id": "ch006_ev004",
+    "chapter": 6,
+    "event_type": "character_state_changed",
+    "subject": "墨玄机",
+    "payload": {
+      "description": "从书院北侧偏院突围回书院门洞，机甲左翼残缺，虎口撕裂，与顾道儒并肩对峙赫连焰",
+      "old_state": "在书院偏院另一侧负隅死守",
+      "new_state": "回援书院门洞，并肩顾道儒"
+    }
+  }
+]

@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "story-system/v1",
-    "chapter": 1,
+    "chapter": 3,
     "status": "accepted"
   },
   "contract_refs": {
     "master": "MASTER_SETTING.json",
     "volume": "volume_001.json",
-    "chapter": "chapter_001.json",
-    "review": "chapter_001.review.json"
+    "chapter": "chapter_003.json",
+    "review": "chapter_003.review.json"
   },
   "provenance": {
     "write_fact_role": "chapter_commit",

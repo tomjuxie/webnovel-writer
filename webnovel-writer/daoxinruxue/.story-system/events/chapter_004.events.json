@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "evt-ch0004-001",
+    "chapter": 4,
+    "event_type": "power_breakthrough",
+    "subject": "顾道儒",
+    "payload": {
+      "realm": "解锁《圣贤道藏》论语第一章，融汇真气与浩然气，战力暴涨达到远超练气二层限界的极限伟力"
+    }
+  },
+  {
+    "event_id": "evt-ch0004-002",
+    "chapter": 4,
+    "event_type": "open_loop_created",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "东城门爆碎，蛮兵骁骑杀入，顾道儒金瞳绽放如何力敌千军",
+      "loop_type": "危机钩",
+      "urgency": 90.0
+    }
+  }
+]
