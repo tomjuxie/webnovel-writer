@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 8,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_008.json",
+    "review": "chapter_008.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "顾道儒 | 站立在残破的书院前 | 看着惊恐无措的十数名残存同窗与数百百姓",
+      "顾道儒与墨玄机 | 忍痛商定 | 乘着暴雨连夜带百姓从西北险道隘口突围",
+      "蛮兵散部骑兵 | 顺山谷狭道衔尾追杀 | 气血煞气撕裂夜幕",
+      "墨玄机 | 毅然引爆并操纵最后三具守城傀儡 | 卡在隘口断后阻敌",
+      "三具傀儡在风雨中轰然碎裂 | 阻断了山谷隘口 | 顾道儒与墨玄机带领残兵百姓终于冲出蛮荒山谷"
+    ],
+    "covered_nodes": [
+      "顾道儒 | 站立在残破的书院前 | 看着惊恐无措的十数名残存同窗与数百百姓",
+      "顾道儒与墨玄机 | 忍痛商定 | 乘着暴雨连夜带百姓从西北险道隘口突围",
+      "蛮兵散部骑兵 | 顺山谷狭道衔尾追杀 | 气血煞气撕裂夜幕",
+      "墨玄机 | 毅然引爆并操纵最后三具守城傀儡 | 卡在隘口断后阻敌",
+      "三具傀儡在风雨中轰然碎裂 | 阻断了山谷隘口 | 顾道儒与墨玄机带领残兵百姓终于冲出蛮荒山谷"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 8,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "0个问题：0个阻断，0个高优"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "顾道儒 | 站立在残破的书院前 | 看着惊恐无措的十数名残存同窗与数百百姓",
+      "顾道儒与墨玄机 | 忍痛商定 | 乘着暴雨连夜带百姓从西北险道隘口突围",
+      "蛮兵散部骑兵 | 顺山谷狭道衔尾追杀 | 气血煞气撕裂夜幕",
+      "墨玄机 | 毅然引爆并操纵最后三具守城傀儡 | 卡在隘口断后阻敌",
+      "三具傀儡在风雨中轰然碎裂 | 阻断了山谷隘口 | 顾道儒与墨玄机带领残兵百姓终于冲出蛮荒山谷"
+    ],
+    "covered_nodes": [
+      "顾道儒 | 站立在残破的书院前 | 看着惊恐无措的十数名残存同窗与数百百姓",
+      "顾道儒与墨玄机 | 忍痛商定 | 乘着暴雨连夜带百姓从西北险道隘口突围",
+      "蛮兵散部骑兵 | 顺山谷狭道衔尾追杀 | 气血煞气撕裂夜幕",
+      "墨玄机 | 毅然引爆并操纵最后三具守城傀儡 | 卡在隘口断后阻敌",
+      "三具傀儡在风雨中轰然碎裂 | 阻断了山谷隘口 | 顾道儒与墨玄机带领残兵百姓终于冲出蛮荒山谷"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch008-001",
+      "chapter": 8,
+      "event_type": "character_state_changed",
+      "subject": "墨玄机",
+      "payload": {
+        "field": "status",
+        "new": "牺牲全部木甲傀儡断后阻敌，极度透支陷入昏迷",
+        "old": "两肋骨折但清醒"
+      }
+    },
+    {
+      "event_id": "evt-ch008-002",
+      "chapter": 8,
+      "event_type": "open_loop_created",
+      "subject": "顾道儒",
+      "payload": {
+        "content": "遭遇大秦法家甲士封锁黄土大道，前方局势敌友未卜"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "field": "location.current",
+      "old": "临渊书院前庭",
+      "new": "山谷出口黄土大道"
+    },
+    {
+      "entity_id": "墨玄机",
+      "field": "status",
+      "old": "压入废木堆，两肋断裂",
+      "new": "引爆三具松木傀儡阻敌，重伤透支昏迷"
+    },
+    {
+      "entity_id": "墨玄机",
+      "field": "location.current",
+      "old": "临渊书院前庭",
+      "new": "山谷出口黄土大道"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "墨玄机",
+      "action": "update",
+      "entity_type": "角色",
+      "attributes": {
+        "injury": "两肋断裂错位，机关尽毁，陷入重伤半昏迷状态"
+      }
+    },
+    {
+      "entity_id": "顾道儒",
+      "action": "update",
+      "entity_type": "角色",
+      "attributes": {
+        "status": "真气枯竭，体力透支，背负墨玄机走出山谷"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "顾道儒",
+      "mentions": [
+        "顾道儒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "墨玄机",
+      "mentions": [
+        "墨玄机"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 64,
+      "location": "临渊书院废墟",
+      "summary": "顾道儒组织惊慌失措的书生和百姓突围逃亡，墨玄机忍痛携带最后三具松木傀儡",
+      "characters": [
+        "顾道儒",
+        "墨玄机"
+      ]
+    },
+    {
+      "index": 2,
+      "start_line": 65,
+      "end_line": 138,
+      "location": "西北险道隘口",
+      "summary": "山谷大雨夜，蛮兵骁骑追杀而来，墨玄机驾驭三尊傀儡浴血抵挡，并决然引爆傀儡阻断隘口",
+      "characters": [
+        "顾道儒",
+        "墨玄机"
+      ]
+    },
+    {
+      "index": 3,
+      "start_line": 139,
+      "end_line": 204,
+      "location": "山谷出口黄土大道",
+      "summary": "顾道儒背负昏迷的墨玄机带领难民冲出山谷，迎面遭遇大秦法家大旗封路",
+      "characters": [
+        "顾道儒",
+        "墨玄机"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "quest",
+  "summary_text": "---\nchapter: 8\ntime: \"九月四日清晨至九月六日清晨\"\nlocation: \"西北山谷隘口\"\ncharacters: [\"顾道儒\", \"墨玄机\"]\nstate_changes: [\"墨玄机: 两肋骨折→极度透支昏迷\", \"顾道儒: 真气枯竭→背负墨玄机出山口\"]\nhook_type: \"危机钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n第八章《傀儡碎风雨》讲述顾道儒与墨玄机忍痛带领书院残存儒生与数百无辜平民连夜撤离临渊城。在西北险道隘口突围中，散部蛮兵哨骑乘狼群从雨夜中风雨交加地衔尾追杀来。为掩护百姓撤退，墨玄机咬紧牙关、强忍两肋错位的剧痛，毅然调遣并引爆了身边最后的“木甲一/二/三号”机关傀儡，倾覆风蚀石壁彻底阻断了隘口，决然断后。蛮兵攻势被阻，众人在山谷乱石与寒风中又艰难跋涉了一日一夜，终于成功突出重围。破晓时分，秋雨停歇，顾道儒背着已陷入昏迷的墨玄机走出山谷，却迎面看见封锁黄土大道的一杆冰冷漆黑的“大秦”法家大旗与林立的长戟。\n## 伏笔\n- [埋设] 大秦法家势力的介入与法家大旗暗示下一阶段百家冲突\n## 承接点\n临渊城突围已然功成，但大秦边境的黑甲兵与法尺文官暗示前方危机丛生。\n",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

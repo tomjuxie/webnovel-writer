@@ -32,9 +32,9 @@
     "cultivation_subtiers": "一至九境"
   },
   "progress": {
-    "current_chapter": 7,
-    "total_words": 21344,
-    "last_updated": "2026-05-25 16:55:05",
+    "current_chapter": 9,
+    "total_words": 30949,
+    "last_updated": "2026-05-26 20:06:34",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -51,7 +51,9 @@
       "4": "chapter_committed",
       "5": "chapter_committed",
       "6": "chapter_committed",
-      "7": "chapter_committed"
+      "7": "chapter_committed",
+      "8": "chapter_committed",
+      "9": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -89,11 +91,11 @@
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 5,
+    "last_quest_chapter": 9,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 2,
+    "chapters_since_switch": 4,
     "history": [
       {
         "chapter": 4,
@@ -101,6 +103,14 @@
       },
       {
         "chapter": 5,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 8,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 9,
         "dominant": "quest"
       }
     ]
@@ -111,10 +121,23 @@
       "power": {
         "layer": 2,
         "realm": "道门练气/儒门觉醒"
-      }
+      },
+      "location": {
+        "current": "通往大周帝都的大道上"
+      },
+      "status": "经脉大面积撕裂，道基受损几乎崩碎，强引孟子经典后坠地重伤昏迷"
     },
     "陈明": {
       "status": "化玉殉道"
+    },
+    "墨玄机": {
+      "status": "再遭大齐腐儒法尺重击，肺腑严重受创，陷入深度生机涣散半昏迷",
+      "location": {
+        "current": "通往大周帝都的大道上"
+      }
+    },
+    "赵良": {
+      "status": "被孟子民贵君轻圣言在社稷正气冲刷下粉碎化灰死亡"
     }
   }
 }

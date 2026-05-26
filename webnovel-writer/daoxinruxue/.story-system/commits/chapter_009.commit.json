@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 9,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_009.json",
+    "review": "chapter_009.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "顾道儒 | 背负着昏迷的墨玄机 | 站在大秦漆黑长戟与法家铁律封锁的黄土大道前",
+      "法家酷吏与齐国腐儒 | 联手宣判顾道儒为窃取气运的百家异端 | 祭出法典锁链与儒门法戒欲行搜魂",
+      "大齐腐儒赵良 | 突袭出手重创意图起身挡劫的墨玄机 | 彻底击碎主角最后克制",
+      "顾道儒 | 怀抱濒死女主以碎裂经脉强行诵读孟子民贵君轻 | 浩然气凝聚金色社稷古鼎横扫关隘",
+      "大秦关隘在社稷金光中坍塌碎裂 | 顾道儒口喷鲜血道基崩裂坠地昏迷 | 幸存百姓背负二人连夜逃向大周帝都"
+    ],
+    "covered_nodes": [
+      "顾道儒 | 背负着昏迷的墨玄机 | 站在大秦漆黑长戟与法家铁律封锁的黄土大道前",
+      "法家酷吏与齐国腐儒 | 联手宣判顾道儒为窃取气运的百家异端 | 祭出法典锁链与儒门法戒欲行搜魂",
+      "大齐腐儒赵良 | 突袭出手重创意图起身挡劫的墨玄机 | 彻底击碎主角最后克制",
+      "顾道儒 | 怀抱濒死女主以碎裂经脉强行诵读孟子民贵君轻 | 浩然气凝聚金色社稷古鼎横扫关隘",
+      "大秦关隘在社稷金光中坍塌碎裂 | 顾道儒口喷鲜血道基崩裂坠地昏迷 | 幸存百姓背负二人连夜逃向大周帝都"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 9,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "0个问题：0个阻断，0个高优"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "顾道儒 | 背负着昏迷的墨玄机 | 站在大秦漆黑长戟与法家铁律封锁的黄土大道前",
+      "法家酷吏与齐国腐儒 | 联手宣判顾道儒为窃取气运的百家异端 | 祭出法典锁链与儒门法戒欲行搜魂",
+      "大齐腐儒赵良 | 突袭出手重创意图起身挡劫的墨玄机 | 彻底击碎主角最后克制",
+      "顾道儒 | 怀抱濒死女主以碎裂经脉强行诵读孟子民贵君轻 | 浩然气凝聚金色社稷古鼎横扫关隘",
+      "大秦关隘在社稷金光中坍塌碎裂 | 顾道儒口喷鲜血道基崩裂坠地昏迷 | 幸存百姓背负二人连夜逃向大周帝都"
+    ],
+    "covered_nodes": [
+      "顾道儒 | 背负着昏迷的墨玄机 | 站在大秦漆黑长戟与法家铁律封锁的黄土大道前",
+      "法家酷吏与齐国腐儒 | 联手宣判顾道儒为窃取气运的百家异端 | 祭出法典锁链与儒门法戒欲行搜魂",
+      "大齐腐儒赵良 | 突袭出手重创意图起身挡劫的墨玄机 | 彻底击碎主角最后克制",
+      "顾道儒 | 怀抱濒死女主以碎裂经脉强行诵读孟子民贵君轻 | 浩然气凝聚金色社稷古鼎横扫关隘",
+      "大秦关隘在社稷金光中坍塌碎裂 | 顾道儒口喷鲜血道基崩裂坠地昏迷 | 幸存百姓背负二人连夜逃向大周帝都"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch009-001",
+      "chapter": 9,
+      "event_type": "power_breakthrough",
+      "subject": "顾道儒",
+      "payload": {
+        "classic_unlocked": "孟子·尽心下：民为贵，社稷次之，君为轻",
+        "manifestation_type": "浩然社稷金鼎（毁灭与震撼级治国伟力）"
+      }
+    },
+    {
+      "event_id": "evt-ch009-002",
+      "chapter": 9,
+      "event_type": "character_state_changed",
+      "subject": "顾道儒",
+      "payload": {
+        "field": "status",
+        "new": "引动治国级圣言遭遇知行大反噬，道基碎裂沦为残躯，失去意识",
+        "old": "真气枯竭"
+      }
+    },
+    {
+      "event_id": "evt-ch009-003",
+      "chapter": 9,
+      "event_type": "character_state_changed",
+      "subject": "墨玄机",
+      "payload": {
+        "field": "status",
+        "new": "受赵良重创生机微弱，陷入垂死深度昏迷",
+        "old": "脱力昏迷"
+      }
+    },
+    {
+      "event_id": "evt-ch009-004",
+      "chapter": 9,
+      "event_type": "open_loop_created",
+      "subject": "顾道儒",
+      "payload": {
+        "content": "大周学宫论道前，主角二人皆为残躯重伤，命悬一线"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "field": "status",
+      "old": "真气枯竭，体力透支，背负墨玄机走出山谷",
+      "new": "经脉大面积撕裂，道基受损几乎崩碎，强引孟子经典后坠地重伤昏迷"
+    },
+    {
+      "entity_id": "顾道儒",
+      "field": "location.current",
+      "old": "山谷出口黄土大道",
+      "new": "通往大周帝都的大道上"
+    },
+    {
+      "entity_id": "墨玄机",
+      "field": "status",
+      "old": "引爆三具松木傀儡阻敌，重伤透支昏迷",
+      "new": "再遭大齐腐儒法尺重击，肺腑严重受创，陷入深度生机涣散半昏迷"
+    },
+    {
+      "entity_id": "墨玄机",
+      "field": "location.current",
+      "old": "山谷出口黄土大道",
+      "new": "通往大周帝都的大道上"
+    },
+    {
+      "entity_id": "赵良",
+      "field": "status",
+      "old": "东城门破开后叛逃",
+      "new": "被孟子民贵君轻圣言在社稷正气冲刷下粉碎化灰死亡"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "墨玄机",
+      "action": "update",
+      "entity_type": "角色",
+      "attributes": {
+        "injury": "两肋断裂错位并遭二次重创，内脏严重受损，陷入重度昏迷濒死"
+      }
+    },
+    {
+      "entity_id": "顾道儒",
+      "action": "update",
+      "entity_type": "角色",
+      "attributes": {
+        "status": "经脉大面积碎裂，道基近崩，知行反噬导致重伤失去意识"
+      }
+    },
+    {
+      "entity_id": "赵良",
+      "action": "delete",
+      "entity_type": "角色"
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "顾道儒",
+      "mentions": [
+        "顾道儒"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "墨玄机",
+      "mentions": [
+        "墨玄机"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "卫长生",
+      "mentions": [
+        "卫长生"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "赵东来",
+      "mentions": [
+        "赵东来"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "赵良",
+      "mentions": [
+        "赵良"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 78,
+      "location": "大秦边界条案前",
+      "summary": "大秦判官卫长生与大齐大儒赵东来拦截流民，逼迫顾道儒接受搜魂",
+      "characters": [
+        "顾道儒",
+        "墨玄机",
+        "卫长生",
+        "赵东来",
+        "赵良"
+      ]
+    },
+    {
+      "index": 2,
+      "start_line": 79,
+      "end_line": 120,
+      "location": "黄土大道",
+      "summary": "赵良突袭意图对主角出手，墨玄机咬牙激起机关残盾挡阻，本身伤上加伤，吐血昏迷垂死",
+      "characters": [
+        "顾道儒",
+        "墨玄机",
+        "赵良"
+      ]
+    },
+    {
+      "index": 3,
+      "start_line": 121,
+      "end_line": 200,
+      "location": "碎裂的大秦隘口",
+      "summary": "顾道儒在大恸中召唤孟子“民贵君轻”圣言，社稷金鼎震碎法尺、碎解赵良、重创赵东来并崩坏关隘，自身因强反噬大损道基倒地昏迷，遗民抬着二人冒雨逃亡",
+      "characters": [
+        "顾道儒",
+        "墨玄机",
+        "卫长生",
+        "赵东来",
+        "赵良"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "quest",
+  "summary_text": "---\nchapter: 9\ntime: \"九月六日黎明至上午\"\nlocation: \"大秦关隘废墟\"\ncharacters: [\"顾道儒\", \"墨玄机\", \"卫长生\", \"赵东来\", \"赵良\"]\nstate_changes: [\"顾道儒: 真气枯竭→道基崩碎坠地昏迷\", \"墨玄机: 骨折昏迷→重创垂死深度昏迷\", \"赵良: 逃兵→社稷鼎气冲刷粉碎化灰\"]\nhook_type: \"悬念钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n第九章《民贵君为轻》讲述顾道儒背负昏迷的墨玄机，率数百难民出谷，遭遇大秦法家官吏卫长生与大齐儒门大儒赵东来、叛徒赵良的联手设卡截捕。对方意图自封主角识海强行搜魂。危急关头，墨玄机拼死激发起黑金盾牌阻挡赵良的青色法尺突袭，导致其本身受二次重创，内脏破裂生机微弱。眼见墨玄机垂死，顾道儒在大恸与极度透支下彻底入世，强行引动《孟子·尽心下》“民为贵，社稷次之，君为轻”的旷世真言。浩然社稷金鼎破云降世，击碎法尺与绝对威严力场，当场汽化赵良，轰飞重创赵东来，崩坍整个大秦边界关卡。最终，顾道儒因越级引动治国圣言遭遇极其惨烈的知行反噬，道基大损、全身经脉寸断跌地昏迷。几百名流民在废墟中自发抬起顾道儒与墨玄机，在风雨交加的黄土路上，向大周帝都坚韧迈进。\n## 伏笔\n- [埋设] 道基破碎的顾道儒与重伤昏迷的墨玄机在帝都学宫如何绝处逢生\n## 承接点\n大秦关卡崩塌，但主角二人濒死废人状态将如何面对帝都中州更狂暴的百家风云？\n",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

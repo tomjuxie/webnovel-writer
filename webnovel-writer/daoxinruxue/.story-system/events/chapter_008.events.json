@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "evt-ch008-001",
+    "chapter": 8,
+    "event_type": "character_state_changed",
+    "subject": "墨玄机",
+    "payload": {
+      "field": "status",
+      "new": "牺牲全部木甲傀儡断后阻敌，极度透支陷入昏迷",
+      "old": "两肋骨折但清醒"
+    }
+  },
+  {
+    "event_id": "evt-ch008-002",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "遭遇大秦法家甲士封锁黄土大道，前方局势敌友未卜"
+    }
+  }
+]

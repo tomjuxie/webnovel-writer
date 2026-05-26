@@ -1,0 +1,43 @@
+[
+  {
+    "event_id": "evt-ch009-001",
+    "chapter": 9,
+    "event_type": "power_breakthrough",
+    "subject": "顾道儒",
+    "payload": {
+      "classic_unlocked": "孟子·尽心下：民为贵，社稷次之，君为轻",
+      "manifestation_type": "浩然社稷金鼎（毁灭与震撼级治国伟力）"
+    }
+  },
+  {
+    "event_id": "evt-ch009-002",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "field": "status",
+      "new": "引动治国级圣言遭遇知行大反噬，道基碎裂沦为残躯，失去意识",
+      "old": "真气枯竭"
+    }
+  },
+  {
+    "event_id": "evt-ch009-003",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "墨玄机",
+    "payload": {
+      "field": "status",
+      "new": "受赵良重创生机微弱，陷入垂死深度昏迷",
+      "old": "脱力昏迷"
+    }
+  },
+  {
+    "event_id": "evt-ch009-004",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "大周学宫论道前，主角二人皆为残躯重伤，命悬一线"
+    }
+  }
+]
