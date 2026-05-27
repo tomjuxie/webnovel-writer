@@ -32,9 +32,9 @@
     "cultivation_subtiers": "一至九境"
   },
   "progress": {
-    "current_chapter": 13,
-    "total_words": 48667,
-    "last_updated": "2026-05-27 11:12:02",
+    "current_chapter": 14,
+    "total_words": 52235,
+    "last_updated": "2026-05-27 11:23:29",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -57,7 +57,8 @@
       "10": "chapter_committed",
       "11": "chapter_committed",
       "12": "chapter_committed",
-      "13": "chapter_committed"
+      "13": "chapter_committed",
+      "14": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -95,11 +96,11 @@
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 13,
+    "last_quest_chapter": 14,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 8,
+    "chapters_since_switch": 9,
     "history": [
       {
         "chapter": 4,
@@ -132,6 +133,10 @@
       {
         "chapter": 13,
         "dominant": "quest"
+      },
+      {
+        "chapter": 14,
+        "dominant": "quest"
       }
     ]
   },
@@ -145,7 +150,7 @@
       "location": {
         "current": "大周帝都学宫百家论道台"
       },
-      "status": "得到医家苏木药石相助以及体内“上善若水”之气润养，生机已稳，服药后苏醒，但仍全身断裂十根经脉处于残躯状态"
+      "status": "大破公孙烈坚白逻辑锁链，生死百家擂首战告捷，但脑藏受到强引庄子至理的激烈反噬，十二正经剧痛，手指颤抖，重伤负荷中"
     },
     "陈明": {
       "status": "化玉殉道"
@@ -168,6 +173,9 @@
       "location": {
         "current": "大周帝都学宫百家论道台"
       }
+    },
+    "公孙烈": {
+      "status": "逻辑辩道被破遭受惨烈法理反噬，当众自碎名家玉符，毕生辩道真气尽泄，逻辑气海碎裂彻底沦为废人"
     }
   }
 }

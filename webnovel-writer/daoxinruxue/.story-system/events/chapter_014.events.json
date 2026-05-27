@@ -1,0 +1,32 @@
+[
+  {
+    "event_id": "evt-ch014-001",
+    "chapter": 14,
+    "event_type": "world_rule_revealed",
+    "subject": "顾道儒",
+    "payload": {
+      "classic_referenced": "庄子：以指喻指之非指，不若以非指喻指之非指也；以马喻马之非马，不若以非马喻马之非马也。天地一指也，万物一马也。",
+      "concept_revealed": "道家庄子齐物论之至理，物我齐一，消解一切名实边界与二分偏执，引动天地灵光蝴蝶与齐物巨马异象，彻底从根基上解构并粉碎名家离坚白逻辑体系"
+    }
+  },
+  {
+    "event_id": "evt-ch014-002",
+    "chapter": 14,
+    "event_type": "open_loop_closed",
+    "subject": "公孙烈",
+    "payload": {
+      "loop_type": "生死辩道斗法",
+      "details": "公孙烈逻辑败退履约自碎令符废去毕生修为，生死百家擂首战告捷，名家年轻一代核心底牌被当场折断"
+    }
+  },
+  {
+    "event_id": "evt-ch014-003",
+    "chapter": 14,
+    "event_type": "relationship_changed",
+    "subject": "墨玄机",
+    "payload": {
+      "relationship_type": "休戚与共的灵魂羁绊",
+      "details": "墨玄机在顾道儒战后面临严重经脉后遗反噬、身体剧烈颤抖时，毅然上台为其披上黑色防风披风遮风挡雨，达成无声却极深的情感温暖与守候"
+    }
+  }
+]
