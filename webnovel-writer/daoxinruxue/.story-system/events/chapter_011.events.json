@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "evt-ch011-001",
+    "chapter": 11,
+    "event_type": "world_rule_revealed",
+    "subject": "顾道儒",
+    "payload": {
+      "classic_referenced": "老子：上善若水。水善利万物而不争，处众人之所恶，故几于道。",
+      "concept_revealed": "道家“不争”与“唯其不争，故天下莫能与之争”的道德真理，引发法阵虚空共鸣"
+    }
+  },
+  {
+    "event_id": "evt-ch011-002",
+    "chapter": 11,
+    "event_type": "open_loop_created",
+    "subject": "顾道儒",
+    "payload": {
+      "loop_type": "学宫大比 D-20 倒计时",
+      "content": "大周学宫论道大比已迫在眉睫，经脉尽碎的主角如何代表废弃书院在百家围剿下绝地反击"
+    }
+  }
+]

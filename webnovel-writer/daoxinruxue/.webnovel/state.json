@@ -32,9 +32,9 @@
     "cultivation_subtiers": "一至九境"
   },
   "progress": {
-    "current_chapter": 10,
-    "total_words": 34399,
-    "last_updated": "2026-05-27 09:07:28",
+    "current_chapter": 11,
+    "total_words": 39333,
+    "last_updated": "2026-05-27 09:19:54",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -54,7 +54,8 @@
       "7": "chapter_committed",
       "8": "chapter_committed",
       "9": "chapter_committed",
-      "10": "chapter_committed"
+      "10": "chapter_committed",
+      "11": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -92,11 +93,11 @@
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 10,
+    "last_quest_chapter": 11,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 5,
+    "chapters_since_switch": 6,
     "history": [
       {
         "chapter": 4,
@@ -117,6 +118,10 @@
       {
         "chapter": 10,
         "dominant": "quest"
+      },
+      {
+        "chapter": 11,
+        "dominant": "quest"
       }
     ]
   },
@@ -128,7 +133,7 @@
         "realm": "道门练气/儒门觉醒"
       },
       "location": {
-        "current": "冷溪镇医家悬壶庐"
+        "current": "大周帝都"
       },
       "status": "得到医家苏木药石相助以及体内“上善若水”之气润养，生机已稳，服药后苏醒，但仍全身断裂十根经脉处于残躯状态"
     },
@@ -138,11 +143,16 @@
     "墨玄机": {
       "status": "被苏木以悬壶引气针归位肋骨、疏导瘀血，并服下黄精药液，伤势稳定、退热并呼吸平稳入睡",
       "location": {
-        "current": "冷溪镇医家悬壶庐"
+        "current": "大周帝都"
       }
     },
     "赵良": {
       "status": "被孟子民贵君轻圣言在社稷正气冲刷下粉碎化灰死亡"
+    },
+    "苏木": {
+      "location": {
+        "current": "大周帝都"
+      }
     }
   }
 }
