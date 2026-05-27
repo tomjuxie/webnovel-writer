@@ -1,0 +1,32 @@
+[
+  {
+    "event_id": "evt-ch013-001",
+    "chapter": 13,
+    "event_type": "character_state_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "action": "refugee_petition",
+      "details": "数百边境流民百姓自发跪在学宫门前请愿求公道，形成庞大的道德与民意力量，成为陆明首席力排众议的绝佳筹码"
+    }
+  },
+  {
+    "event_id": "evt-ch013-002",
+    "chapter": 13,
+    "event_type": "artifact_obtained",
+    "subject": "陆明",
+    "payload": {
+      "artifact_name": "先帝大儒法旨",
+      "details": "首席执事陆明当殿出示三朝遗留的先帝大儒法旨，压制礼部侍郎与保守派大儒，并以此为法律凭据强行叩开百家论道台"
+    }
+  },
+  {
+    "event_id": "evt-ch013-003",
+    "chapter": 13,
+    "event_type": "open_loop_created",
+    "subject": "公孙烈",
+    "payload": {
+      "loop_type": "生死辩道斗法",
+      "details": "名家四境天骄公孙烈在百家论道台发起辩道斗法生死挑战契约，败者自碎令符彻底断绝大比和学术道路，战斗悬念拉开"
+    }
+  }
+]
