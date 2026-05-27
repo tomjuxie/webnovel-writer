@@ -1,0 +1,32 @@
+[
+  {
+    "event_id": "evt-ch012-001",
+    "chapter": 12,
+    "event_type": "relationship_changed",
+    "subject": "墨玄机",
+    "payload": {
+      "relationship_type": "情谊深种/患难知己",
+      "details": "墨玄机苏醒后深知顾道儒不惜自毁道基救她，两人在寒蝉观木屋艾草药香中达成默契克制的清甜温存与高度信任"
+    }
+  },
+  {
+    "event_id": "evt-ch012-002",
+    "chapter": 12,
+    "event_type": "world_rule_revealed",
+    "subject": "顾道儒",
+    "payload": {
+      "classic_referenced": "老子：名可名，非常名；无名天地之始，有名万物之母。",
+      "concept_revealed": "道家至高的“无名之本”对名家偏执的“名实绑定”进行降维宇宙级否定，触发古松风涛异象共鸣并彻底击碎名家辩言大阵"
+    }
+  },
+  {
+    "event_id": "evt-ch012-003",
+    "chapter": 12,
+    "event_type": "open_loop_created",
+    "subject": "顾道儒",
+    "payload": {
+      "loop_type": "生死百家擂",
+      "content": "顾道儒当众向全天下宣誓在乾坤街设立生死百家擂，以废人残躯论战百家，舆论彻底海啸"
+    }
+  }
+]
