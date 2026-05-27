@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 10,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_010.json",
+    "review": "chapter_010.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "难民百姓 | 抬着简易担架在大雨中 | 冲进边界冷溪镇医家草庐",
+      "苏木 | 以悬壶引气针法与翠绿医气 | 稳住墨玄机刺入肺叶的断骨与气血生机",
+      "苏木 | 诊脉察觉顾道儒体内太极柔劲 | 惊叹其道家太极真理的护体神异",
+      "顾道儒 | 服用黄精药汁后苏醒 | 得知几百百姓冒雨守在庭院直至其睁眼",
+      "顾道儒与苏木 | 在油灯药香下 | 相互对视并结下深刻的医道善缘"
+    ],
+    "covered_nodes": [
+      "难民百姓 | 抬着简易担架在大雨中 | 冲进边界冷溪镇医家草庐",
+      "苏木 | 以悬壶引气针法与翠绿医气 | 稳住墨玄机刺入肺叶的断骨与气血生机",
+      "苏木 | 诊脉察觉顾道儒体内太极柔劲 | 惊叹其道家太极真理的护体神异",
+      "顾道儒 | 服用黄精药汁后苏醒 | 得知几百百姓冒雨守在庭院直至其睁眼",
+      "顾道儒与苏木 | 在油灯药香下 | 相互对视并结下深刻的医道善缘"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 10,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "0个问题：0个阻断，0个高优"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "难民百姓 | 抬着简易担架在大雨中 | 冲进边界冷溪镇医家草庐",
+      "苏木 | 以悬壶引气针法与翠绿医气 | 稳住墨玄机刺入肺叶的断骨与气血生机",
+      "苏木 | 诊脉察觉顾道儒体内太极柔劲 | 惊叹其道家太极真理的护体神异",
+      "顾道儒 | 服用黄精药汁后苏醒 | 得知几百百姓冒雨守在庭院直至其睁眼",
+      "顾道儒与苏木 | 在油灯药香下 | 相互对视并结下深刻的医道善缘"
+    ],
+    "covered_nodes": [
+      "难民百姓 | 抬着简易担架在大雨中 | 冲进边界冷溪镇医家草庐",
+      "苏木 | 以悬壶引气针法与翠绿医气 | 稳住墨玄机刺入肺叶的断骨与气血生机",
+      "苏木 | 诊脉察觉顾道儒体内太极柔劲 | 惊叹其道家太极真理的护体神异",
+      "顾道儒 | 服用黄精药汁后苏醒 | 得知几百百姓冒雨守在庭院直至其睁眼",
+      "顾道儒与苏木 | 在油灯药香下 | 相互对视并结下深刻的医道善缘"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch010-001",
+      "chapter": 10,
+      "event_type": "character_state_changed",
+      "subject": "顾道儒",
+      "payload": {
+        "healing_mechanism": "上善若水之气（道门第一章所悟不争之理）化温润细流润养裂缝，阻止反噬崩解",
+        "status": "生机稳固并苏醒，仍保留残躯伤势"
+      }
+    },
+    {
+      "event_id": "evt-ch010-002",
+      "chapter": 10,
+      "event_type": "character_state_changed",
+      "subject": "墨玄机",
+      "payload": {
+        "treatment_received": "苏木以三境医家真气施展悬壶引气针与黄精续骨药液",
+        "status": "肋骨归位、肺部瘀血排出、发热消退、伤势平稳入睡"
+      }
+    },
+    {
+      "event_id": "evt-ch010-003",
+      "chapter": 10,
+      "event_type": "relationship_changed",
+      "subject": "苏木",
+      "payload": {
+        "relationship_type": "相惜/善缘",
+        "details": "苏木被顾道儒体内的太极柔劲及孟子“民贵君轻”圣举所惊骇折服，与顾道儒结下医道善缘"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "field": "status",
+      "old": "经脉大面积撕裂，道基受损几乎崩碎，强引孟子经典后坠地重伤昏迷",
+      "new": "得到医家苏木药石相助以及体内“上善若水”之气润养，生机已稳，服药后苏醒，但仍全身断裂十根经脉处于残躯状态"
+    },
+    {
+      "entity_id": "顾道儒",
+      "field": "location.current",
+      "old": "通往大周帝都的大道上",
+      "new": "冷溪镇医家悬壶庐"
+    },
+    {
+      "entity_id": "墨玄机",
+      "field": "status",
+      "old": "再遭大齐腐儒法尺重击，肺腑严重受创，陷入深度生机涣散半昏迷",
+      "new": "被苏木以悬壶引气针归位肋骨、疏导瘀血，并服下黄精药液，伤势稳定、退热并呼吸平稳入睡"
+    },
+    {
+      "entity_id": "墨玄机",
+      "field": "location.current",
+      "old": "通往大周帝都的大道上",
+      "new": "冷溪镇医家悬壶庐"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "墨玄机",
+      "action": "update",
+      "entity_type": "角色",
+      "attributes": {
+        "injury": "肋骨复位、肺部伤势稳定、退热、呼吸平稳睡眠中"
+      }
+    },
+    {
+      "entity_id": "顾道儒",
+      "action": "update",
+      "entity_type": "角色",
+      "attributes": {
+        "status": "经脉断裂十根、道基开裂，伤势因体内上善若水之气与药石润养暂稳，已服药苏醒，目前处于完全丧失战力的残躯状态"
+      }
+    },
+    {
+      "entity_id": "苏木",
+      "action": "create",
+      "entity_type": "角色",
+      "attributes": {
+        "identity": "大赵医家游方传人，三境行医修行者",
+        "location": "边界冷溪镇悬壶庐",
+        "skills": "悬壶引气针法，悬壶九生鼎气炼药"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "顾道儒",
+      "mentions": [
+        "顾道儒",
+        "顾先生"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "墨玄机",
+      "mentions": [
+        "墨玄机",
+        "墨姑娘"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "苏木",
+      "mentions": [
+        "苏木",
+        "神医"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 34,
+      "location": "荒野平原至冷溪镇",
+      "summary": "秋雨连绵中，百姓抬着昏迷的顾道儒与墨玄机拼死行军，揭示顾道儒泥丸宫内《圣贤道藏》被锁与“上善若水”之气默默护脉自愈的机制。",
+      "characters": [
+        "顾道儒",
+        "墨玄机"
+      ]
+    },
+    {
+      "index": 2,
+      "start_line": 35,
+      "end_line": 118,
+      "location": "冷溪镇悬壶庐",
+      "summary": "难民敲开大门，三境医家传人苏木施展悬壶引气针保住墨玄机生机，诊脉惊叹顾道儒体内不争之气与可怕心志，使用真气鼎炉炼制黄精药汁喂食二人。",
+      "characters": [
+        "顾道儒",
+        "墨玄机",
+        "苏木"
+      ]
+    },
+    {
+      "index": 3,
+      "start_line": 119,
+      "end_line": 159,
+      "location": "冷溪镇悬壶庐",
+      "summary": "顾道儒深夜服药苏醒，确认墨玄机无碍。苏木感配百姓在暴雨中守护主角的赤诚，认出顾道儒身份，两人在灯下交流，达成惺惺相惜的善缘。",
+      "characters": [
+        "顾道儒",
+        "苏木"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "quest",
+  "summary_text": "---\nchapter: 10\ntime: \"九月七日黄昏至深夜\"\nlocation: \"冷溪镇悬壶庐\"\ncharacters: [\"顾道儒\", \"墨玄机\", \"苏木\"]\nstate_changes: [\"顾道儒: 重伤昏迷→苏醒，生机稳定但经脉残缺\", \"墨玄机: 濒死昏迷→肺腑伤势平稳，退烧入梦\", \"苏木: 游医诊治→敬重顾道儒并结下善缘\"]\nhook_type: \"余韵钩\"\nhook_strength: \"medium\"\n---\n## 剧情摘要\n第十章《悬壶草庐避急雨》讲述在大雨滂沱、道路泥泞的恶劣天气中，数百难民轮流抬着简易担架上的顾道儒和墨玄机连夜行军一日一夜，终于冲进秦周交界的冷溪镇，敲开了一家挂着青色药壶灯笼的医家草庐“悬壶庐”。坐堂大夫乃是三境“行医”的大赵医家游方传人苏木。苏木感配难民赤心与沉重意志，立刻施救。他使用“悬壶引气针”调动翠绿色的医家真气归位墨玄机刺入肺叶的断骨、排解其淤血，保住其生机；接着在为顾道儒诊脉时，惊骇地发现顾道儒虽强引“民贵君轻”圣言遭受知行反噬导致道基开裂、断了十根经脉，却凭体内一股温柔生动的道家“上善若水”之气护住心脉与经脉裂隙，免于经脉粉碎之灾。苏木以鼎气炼药喂食二人“悬壶九生，黄精续骨”碧绿药汁。深夜，顾道儒醒转，见墨玄机伤势稳定，心神微宽。苏木告知顾道儒数百流民在庭院里顶着暴雨不愿散去、自发守护恩公苏醒，且崇敬地认出顾道儒的身份。顾道儒淡然表示自己只是“带他们回家的书生”。二人在豆油灯的温暖药香中对视，于乱世中结下了深厚的医道善缘。\n## 伏笔\n- [承接] 主角体内“上善若水”的道家功法在疗伤与修行中的粘连和润养妙用。\n- [埋设] 医家苏木在后续主角对抗百家腐败宗门、拯救苍生过程中的医道助手伏笔。\n## 承接点\n顾道儒虽然苏醒，但依然是断了十根经脉的“残躯”状态，如何带着伤势稍稳的墨玄机与数百百姓走完最后的路途，在帝都学宫掀起真正论道波澜？\n",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

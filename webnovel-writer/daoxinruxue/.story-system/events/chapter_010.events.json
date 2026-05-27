@@ -1,0 +1,32 @@
+[
+  {
+    "event_id": "evt-ch010-001",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "healing_mechanism": "上善若水之气（道门第一章所悟不争之理）化温润细流润养裂缝，阻止反噬崩解",
+      "status": "生机稳固并苏醒，仍保留残躯伤势"
+    }
+  },
+  {
+    "event_id": "evt-ch010-002",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "墨玄机",
+    "payload": {
+      "treatment_received": "苏木以三境医家真气施展悬壶引气针与黄精续骨药液",
+      "status": "肋骨归位、肺部瘀血排出、发热消退、伤势平稳入睡"
+    }
+  },
+  {
+    "event_id": "evt-ch010-003",
+    "chapter": 10,
+    "event_type": "relationship_changed",
+    "subject": "苏木",
+    "payload": {
+      "relationship_type": "相惜/善缘",
+      "details": "苏木被顾道儒体内的太极柔劲及孟子“民贵君轻”圣举所惊骇折服，与顾道儒结下医道善缘"
+    }
+  }
+]
