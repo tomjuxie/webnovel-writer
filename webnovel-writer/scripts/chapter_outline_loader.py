@@ -228,6 +228,7 @@ def _clean_plot_line(line: str) -> str:
     text = str(line or "").strip()
     text = re.sub(r"^[\-\*•]+\s*", "", text)
     text = re.sub(r"^\d+[\.、]\s*", "", text)
+    text = re.sub(r"^\*\*([^\*]+)\*\*([：:])", r"\1\2", text)
     return text.strip()
 
 

@@ -1,0 +1,34 @@
+[
+  {
+    "event_id": "evt-ch017-001",
+    "chapter": 17,
+    "event_type": "character_state_changed",
+    "subject": "苏冷袖",
+    "payload": {
+      "field": "realm",
+      "new": "死亡",
+      "old": "纵横家四境合纵巅峰天骄"
+    }
+  },
+  {
+    "event_id": "evt-ch017-002",
+    "chapter": 17,
+    "event_type": "open_loop_closed",
+    "subject": "苏冷袖",
+    "payload": {
+      "content": "在大周学宫论道台上以孟子民本思想和鬼谷子大同真理彻底破除苏冷袖的连横大势，使其大彻大悟、以身祭道化为血雾。"
+    }
+  },
+  {
+    "event_id": "evt-ch017-003",
+    "chapter": 17,
+    "event_type": "open_loop_created",
+    "subject": "太虚道长",
+    "payload": {
+      "content": "太虚道长见证两仪共鸣，确认天道在复苏且大周隐秘道门与伪圣天幕、扫地老者、三十年前陨落亚圣之间存在巨大因果。",
+      "unanswered_question": "大周隐秘道门在万年前天道封印中扮演了什么角色？扫地老者与亚圣之死的深层真相是什么？",
+      "urgency": 85.0,
+      "planted_chapter": 17
+    }
+  }
+]

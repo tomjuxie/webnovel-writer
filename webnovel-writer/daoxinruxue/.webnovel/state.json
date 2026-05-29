@@ -32,9 +32,9 @@
     "cultivation_subtiers": "一至九境"
   },
   "progress": {
-    "current_chapter": 14,
-    "total_words": 52514,
-    "last_updated": "2026-05-27 15:00:43",
+    "current_chapter": 17,
+    "total_words": 66088,
+    "last_updated": "2026-05-29 19:09:37",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -58,7 +58,10 @@
       "11": "chapter_committed",
       "12": "chapter_committed",
       "13": "chapter_committed",
-      "14": "chapter_committed"
+      "14": "chapter_committed",
+      "15": "chapter_committed",
+      "16": "chapter_committed",
+      "17": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -96,11 +99,11 @@
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 14,
+    "last_quest_chapter": 17,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 9,
+    "chapters_since_switch": 12,
     "history": [
       {
         "chapter": 4,
@@ -137,6 +140,18 @@
       {
         "chapter": 14,
         "dominant": "quest"
+      },
+      {
+        "chapter": 15,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 16,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 17,
+        "dominant": "quest"
       }
     ]
   },
@@ -158,7 +173,7 @@
     "墨玄机": {
       "status": "彻底苏醒、服药后神志清醒、能独立进行客观 of 百家局势理性剖析，伤势平稳养护中",
       "location": {
-        "current": "大周帝都学宫百家论道台"
+        "current": "大周帝都寒蝉观"
       }
     },
     "赵良": {
@@ -166,7 +181,7 @@
     },
     "苏木": {
       "location": {
-        "current": "大周帝都学宫百家论道台"
+        "current": "大周帝都寒蝉观"
       }
     },
     "陆明": {
@@ -176,6 +191,18 @@
     },
     "公孙烈": {
       "status": "逻辑辩道被破遭受惨烈法理反噬，当众自碎名家玉符，毕生辩道真气尽泄，逻辑气海碎裂彻底沦为废人"
+    },
+    "商九律": {
+      "location": {
+        "current": "大周帝都学宫百家论道台"
+      },
+      "realm": "境界受损"
+    },
+    "苏冷袖": {
+      "location": {
+        "current": "大周学宫百家论道台"
+      },
+      "realm": "死亡"
     }
   }
 }

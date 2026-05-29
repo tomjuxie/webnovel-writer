@@ -1,0 +1,34 @@
+[
+  {
+    "event_id": "evt-ch016-001",
+    "chapter": 16,
+    "event_type": "character_state_changed",
+    "subject": "商九律",
+    "payload": {
+      "field": "realm",
+      "new": "境界受损",
+      "old": "法家立身巅峰判官"
+    }
+  },
+  {
+    "event_id": "evt-ch016-002",
+    "chapter": 16,
+    "event_type": "open_loop_closed",
+    "subject": "商九律",
+    "payload": {
+      "content": "成功在大周学宫论道台上粉碎商九律的黑铁法网并以法家经典完璧其道统，完成了第十五章立下的黑印战书对赌。"
+    }
+  },
+  {
+    "event_id": "evt-ch016-003",
+    "chapter": 16,
+    "event_type": "open_loop_created",
+    "subject": "扫地老者",
+    "payload": {
+      "content": "扫地老者提及三十年前有亚圣陨落于学宫论道台，且血雨下了三天三夜，引出远古圣人陨落核心暗线伏笔。",
+      "unanswered_question": "三十年前陨落的儒门亚圣是谁？他与扫地老者有何关联？",
+      "urgency": 85.0,
+      "planted_chapter": 16
+    }
+  }
+]

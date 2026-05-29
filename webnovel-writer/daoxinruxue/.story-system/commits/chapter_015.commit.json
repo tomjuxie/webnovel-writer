@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 15,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_015.json",
+    "review": "chapter_015.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "论道大胜之余波 | 瞬间席卷了 | 清晨大周帝都的街头巷尾与茶馆酒肆",
+      "苏木与墨玄机 | 在清冷寒蝉观中悉心照料 | 面色苍白却神色温和的顾道儒",
+      "法家律令判官与保守派儒臣 | 在幽暗殿堂中秘密商议 | 如何借由百家擂台将顾道儒作为异端彻底抹杀",
+      "神秘的黑衣人 | 在深夜的凄冷风雨中 | 悍然在寒蝉观的大门上钉下一封法家漆黑生死战书",
+      "顾道儒 | 端坐轮椅看着战书上闪烁的法理黑印 | 嘴角浮现出一抹云淡风轻的笑意"
+    ],
+    "covered_nodes": [
+      "论道大胜之余波 | 瞬间席卷了 | 清晨大周帝都的街头巷尾与茶馆酒肆",
+      "苏木与墨玄机 | 在清冷寒蝉观中悉心照料 | 面色苍白却神色温和的顾道儒",
+      "法家律令判官与保守派儒臣 | 在幽暗殿堂中秘密商议 | 如何借由百家擂台将顾道儒作为异端彻底抹杀",
+      "神秘的黑衣人 | 在深夜的凄冷风雨中 | 悍然在寒蝉观的大门上钉下一封法家漆黑生死战书",
+      "顾道儒 | 端坐轮椅看着战书上闪烁的法理黑印 | 嘴角浮现出一抹云淡风轻的笑意"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 15,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第15章审查大捷：经审核，正文叙事流畅、张力十足，未发现任何AI味、机器腔、人设崩塌、时序回跳或设定冲突问题。完全契合CBN/CPN/CEN结构节点。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "论道大胜之余波 | 瞬间席卷了 | 清晨大周帝都的街头巷尾与茶馆酒肆",
+      "苏木与墨玄机 | 在清冷寒蝉观中悉心照料 | 面色苍白却神色温和的顾道儒",
+      "法家律令判官与保守派儒臣 | 在幽暗殿堂中秘密商议 | 如何借由百家擂台将顾道儒作为异端彻底抹杀",
+      "神秘的黑衣人 | 在深夜的凄冷风雨中 | 悍然在寒蝉观的大门上钉下一封法家漆黑生死战书",
+      "顾道儒 | 端坐轮椅看着战书上闪烁的法理黑印 | 嘴角浮现出一抹云淡风轻的笑意"
+    ],
+    "covered_nodes": [
+      "论道大胜之余波 | 瞬间席卷了 | 清晨大周帝都的街头巷尾与茶馆酒肆",
+      "苏木与墨玄机 | 在清冷寒蝉观中悉心照料 | 面色苍白却神色温和的顾道儒",
+      "法家律令判官与保守派儒臣 | 在幽暗殿堂中秘密商议 | 如何借由百家擂台将顾道儒作为异端彻底抹杀",
+      "神秘的黑衣人 | 在深夜的凄冷风雨中 | 悍然在寒蝉观的大门上钉下一封法家漆黑生死战书",
+      "顾道儒 | 端坐轮椅看着战书上闪烁的法理黑印 | 嘴角浮现出一抹云淡风轻的笑意"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch015-001",
+      "chapter": 15,
+      "event_type": "character_state_changed",
+      "subject": "顾道儒",
+      "payload": {
+        "field": "location.current",
+        "new": "大周帝都寒蝉观",
+        "old": "大周帝都学宫百家论道台"
+      }
+    },
+    {
+      "event_id": "evt-ch015-002",
+      "chapter": 15,
+      "event_type": "open_loop_created",
+      "subject": "商九律",
+      "payload": {
+        "content": "大秦法家四境立身巅峰判官商九律下达黑印生死战书挑战顾道儒，引爆法理与仁道对决悬念。",
+        "unanswered_question": "顾道儒以残躯如何应对法家商九律的铁律镇杀？",
+        "urgency": 90.0,
+        "planted_chapter": 15
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "顾道儒",
+      "field": "location.current",
+      "old": "大周帝都学宫百家论道台",
+      "new": "大周帝都寒蝉观"
+    },
+    {
+      "entity_id": "墨玄机",
+      "field": "location.current",
+      "old": "大周帝都学宫百家论道台",
+      "new": "大周帝都寒蝉观"
+    },
+    {
+      "entity_id": "苏木",
+      "field": "location.current",
+      "old": "大周帝都学宫百家论道台",
+      "new": "大周帝都寒蝉观"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "商九律",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "中反派",
+      "payload": {
+        "name": "商九律",
+        "realm": "法家立身巅峰判官",
+        "status": "代表法家立下生死战书挑战顾道儒"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "顾道儒",
+      "type": "角色",
+      "mentions": [
+        "顾道儒",
+        "顾先生"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "墨玄机",
+      "type": "角色",
+      "mentions": [
+        "墨玄机",
+        "玄机"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "苏木",
+      "type": "角色",
+      "mentions": [
+        "苏木"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "商九律",
+      "type": "角色",
+      "mentions": [
+        "商九律",
+        "商判官"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 35,
+      "location": "大周帝都长街茶馆",
+      "summary": "论道台大捷的舆论在帝都中下层席卷，顾道儒的齐物至理名声大噪。",
+      "characters": []
+    },
+    {
+      "index": 2,
+      "start_line": 36,
+      "end_line": 95,
+      "location": "大周帝都寒蝉观小木屋",
+      "summary": "墨玄机照料顾道儒，两人在艾香中温存对视、理智解构后续围攻局势。",
+      "characters": [
+        "顾道儒",
+        "墨玄机"
+      ]
+    },
+    {
+      "index": 3,
+      "start_line": 96,
+      "end_line": 133,
+      "location": "大周帝都法家秦馆石殿",
+      "summary": "大秦法家判官商九律将顾道儒列为乱法邪道，纠集保守官员计划在论道台将他镇杀。",
+      "characters": [
+        "商九律"
+      ]
+    },
+    {
+      "index": 4,
+      "start_line": 134,
+      "end_line": 210,
+      "location": "大周帝都寒蝉观大门与小木屋",
+      "summary": "深夜冷雨中，法家钉入黑印生死战书，顾道儒云淡风轻一笑安然接战。",
+      "characters": [
+        "顾道儒",
+        "墨玄机",
+        "苏木"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "quest",
+  "summary_text": "---\nchapter: 15\ntime: \"九月十三日清晨至深夜\"\nlocation: \"大周帝都寒蝉观\"\ncharacters: [\"顾道儒\", \"墨玄机\", \"苏木\", \"商九律\"]\nstate_changes: [\"顾道儒: 百家论道台→寒蝉观休整\", \"商九律: 未登场→大秦法家四境立身巅峰判官登场立誓挑战\"]\nhook_type: \"命运抉择钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n第十五章《名实易位惊澜起》讲述九月十三日，顾道儒以“齐物之理”废去名家天骄公孙烈的余波如暴风般席卷整个帝都，百姓与太学府学子疯狂传颂，顾道儒的声望被推至崇高高度。在清冷幽静的寒蝉观内，极度虚弱但神台澄明的顾道儒与悉心照料他的墨玄机在一缕苦涩艾香下温存对视、剖析局势，彼此知己之情愈发真挚而克制。而在幽暗森冷的秦馆石殿内，大秦法家四境【立身】巅峰判官商九律目睹余波，视其为乱法邪道，秘密纠集儒臣，决定亲自登台以法家铁律将主角镇杀。深夜冷雨中，法家鹰犬在观门上悍然钉下法理铁钉，留下一卷暗红闪烁的“法家黑印生死战书”，宣布于九月十五日午后在学宫辨法斗生死。面对谋杀式的生死挑战，顾道儒端坐木轮椅上，抚着庄子竹简，嘴角只余一抹云淡风轻的笑意，安然接战。\n## 伏笔\n- [埋设] 商九律下达的“大秦黑印生死战书”，为后续主角以法理、仁法以及老子道德经大破法家极权统治体系埋设长线引信。\n## 承接点\n九月十五日，重伤残躯的顾道儒将如何登上百家论道台，用华夏诸子经典的玄妙法言破解四境法家判官“言出法随”的国之铁律？",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

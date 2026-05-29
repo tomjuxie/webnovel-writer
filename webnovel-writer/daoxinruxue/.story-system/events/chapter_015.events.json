@@ -1,0 +1,25 @@
+[
+  {
+    "event_id": "evt-ch015-001",
+    "chapter": 15,
+    "event_type": "character_state_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "field": "location.current",
+      "new": "大周帝都寒蝉观",
+      "old": "大周帝都学宫百家论道台"
+    }
+  },
+  {
+    "event_id": "evt-ch015-002",
+    "chapter": 15,
+    "event_type": "open_loop_created",
+    "subject": "商九律",
+    "payload": {
+      "content": "大秦法家四境立身巅峰判官商九律下达黑印生死战书挑战顾道儒，引爆法理与仁道对决悬念。",
+      "unanswered_question": "顾道儒以残躯如何应对法家商九律的铁律镇杀？",
+      "urgency": 90.0,
+      "planted_chapter": 15
+    }
+  }
+]
