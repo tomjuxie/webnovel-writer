@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch020-001",
+    "chapter": 20,
+    "event_type": "open_loop_created",
+    "subject": "商无情",
+    "payload": {
+      "content": "商无情与大齐礼部侍郎赵修己紧急会商，决定跳过规则判定死局，买通帝都极端死士影织与黑铁判官，连夜前往寒蝉观物理截杀主角。",
+      "unanswered_question": "大秦与大齐雇佣的影织极端刺客与黑铁判官，今夜能否攻入寒蝉观并杀死病体的主角？寒蝉观中隐藏着什么御敌的后手？",
+      "urgency": 98.0,
+      "planted_chapter": 20
+    }
+  },
+  {
+    "event_id": "evt-ch020-002",
+    "chapter": 20,
+    "event_type": "character_state_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "顾道儒在静室以内殿获得的太古社稷气运游走全身，温养气血枯竭的经脉并微幅稳固了道基裂缝，抑制了致命的反噬爆发。"
+    }
+  }
+]
