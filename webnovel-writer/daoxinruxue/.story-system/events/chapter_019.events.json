@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch019-001",
+    "chapter": 19,
+    "event_type": "open_loop_closed",
+    "subject": "大周帝君",
+    "payload": {
+      "content": "通过深夜宣召解开密旨悬念：帝君由于大秦大齐在开幕式宣布主角为污道邪学并剥夺大比名额之密谋感到压力，深夜召见以作抉择并最终选择全力暗中支持主角。"
+    }
+  },
+  {
+    "event_id": "evt-ch019-002",
+    "chapter": 19,
+    "event_type": "open_loop_created",
+    "subject": "天子密诏/金牌",
+    "payload": {
+      "content": "大周帝室金牌密旨作为正统法帖赐予主角，将在大比首日掀起何种波涛？大秦大齐的官方剥夺大计将如何与天子御敕进行激烈法律博弈？",
+      "unanswered_question": "天子密诏金牌能否助主角在大秦大齐布下的雷霆杀网前强行带旨论道成功？",
+      "urgency": 95.0,
+      "planted_chapter": 19
+    }
+  }
+]

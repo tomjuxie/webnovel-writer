@@ -32,9 +32,9 @@
     "cultivation_subtiers": "一至九境"
   },
   "progress": {
-    "current_chapter": 18,
+    "current_chapter": 19,
     "total_words": 69916,
-    "last_updated": "2026-05-29 19:31:14",
+    "last_updated": "2026-05-29 19:38:05",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -62,7 +62,8 @@
       "15": "chapter_committed",
       "16": "chapter_committed",
       "17": "chapter_committed",
-      "18": "chapter_committed"
+      "18": "chapter_committed",
+      "19": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -100,11 +101,11 @@
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 18,
+    "last_quest_chapter": 19,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 13,
+    "chapters_since_switch": 14,
     "history": [
       {
         "chapter": 4,
@@ -157,6 +158,10 @@
       {
         "chapter": 18,
         "dominant": "quest"
+      },
+      {
+        "chapter": 19,
+        "dominant": "quest"
       }
     ]
   },
@@ -168,7 +173,7 @@
         "realm": "道门练气/儒门觉醒"
       },
       "location": {
-        "current": "大周帝都学宫百家论道台"
+        "current": "大周皇宫朱雀门外"
       },
       "status": "以齐物至理辩倒并解构公孙烈“离坚白”概念锁链。因为是阐述真理而非将圣言转化为直接物理攻击，因而未受破坏性知行反噬，保持残躯无新伤，庄子竹简愈发清晰"
     },
@@ -212,6 +217,11 @@
     "大监": {
       "location": {
         "current": "大周帝都寒蝉观山门阶下"
+      }
+    },
+    "大周帝君": {
+      "location": {
+        "current": "大周皇宫宣政殿"
       }
     }
   }
