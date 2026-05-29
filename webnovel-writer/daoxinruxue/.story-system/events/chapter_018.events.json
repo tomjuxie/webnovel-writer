@@ -1,0 +1,14 @@
+[
+  {
+    "event_id": "evt-ch018-001",
+    "chapter": 18,
+    "event_type": "open_loop_created",
+    "subject": "大周帝君",
+    "payload": {
+      "content": "大周帝君在深夜秘密派遣玄鸟马车与大监降下密旨宣顾道儒深夜入宫觐见。",
+      "unanswered_question": "大周帝君深夜降旨紧急宣主角入宫有何目的？密旨背后的真相是什么？",
+      "urgency": 90.0,
+      "planted_chapter": 18
+    }
+  }
+]

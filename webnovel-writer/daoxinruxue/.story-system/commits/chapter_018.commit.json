@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 18,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_018.json",
+    "review": "chapter_018.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "清晨冷雾 | 百姓在茶馆长街低声传诵苏冷袖殉道血雾之惨烈 | 寒蝉观山门外大量流民学子安静长跪守候求道",
+      "墨玄机 | 在寒蝉观静室艾草熏香下悉心为顾道儒上药包扎伤指 | 谈及昨日主角固执捡起沾血棋子之来源并知己长谈",
+      "大周内廷黑色奢华马车 | 在深夜雨后泥泞中无声停在寒蝉观山门前 | 大监拨开轿帘宣示帝君降下深夜召见密旨"
+    ],
+    "covered_nodes": [
+      "清晨冷雾 | 百姓在茶馆长街低声传诵苏冷袖殉道血雾之惨烈 | 寒蝉观山门外大量流民学子安静长跪守候求道",
+      "墨玄机 | 在寒蝉观静室艾草熏香下悉心为顾道儒上药包扎伤指 | 谈及昨日主角固执捡起沾血棋子之来源并知己长谈",
+      "大周内廷黑色奢华马车 | 在深夜雨后泥泞中无声停在寒蝉观山门前 | 大监拨开轿帘宣示帝君降下深夜召见密旨"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 18,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "第18章审查大捷：经审核，本章作为高烈度对局后的过渡章，叙事极富张力与电影感。手伤的细节呼应自然，墨玄机的温馨包扎戏份克制而厚重。保守派官方‘污道’大计与帝君深夜召见的黑色马车钩子极具悬念。未发现任何AI味或设定违背问题。完全契合结构节点。"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "清晨冷雾 | 百姓在茶馆长街低声传诵苏冷袖殉道血雾之惨烈 | 寒蝉观山门外大量流民学子安静长跪守候求道",
+      "墨玄机 | 在寒蝉观静室艾草熏香下悉心为顾道儒上药包扎伤指 | 谈及昨日主角固执捡起沾血棋子之来源并知己长谈",
+      "大周内廷黑色奢华马车 | 在深夜雨后泥泞中无声停在寒蝉观山门前 | 大监拨开轿帘宣示帝君降下深夜召见密旨"
+    ],
+    "covered_nodes": [
+      "清晨冷雾 | 百姓在茶馆长街低声传诵苏冷袖殉道血雾之惨烈 | 寒蝉观山门外大量流民学子安静长跪守候求道",
+      "墨玄机 | 在寒蝉观静室艾草熏香下悉心为顾道儒上药包扎伤指 | 谈及昨日主角固执捡起沾血棋子之来源并知己长谈",
+      "大周内廷黑色奢华马车 | 在深夜雨后泥泞中无声停在寒蝉观山门前 | 大监拨开轿帘宣示帝君降下深夜召见密旨"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch018-001",
+      "chapter": 18,
+      "event_type": "open_loop_created",
+      "subject": "大周帝君",
+      "payload": {
+        "content": "大周帝君在深夜秘密派遣玄鸟马车与大监降下密旨宣顾道儒深夜入宫觐见。",
+        "unanswered_question": "大周帝君深夜降旨紧急宣主角入宫有何目的？密旨背后的真相是什么？",
+        "urgency": 90.0,
+        "planted_chapter": 18
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "大监",
+      "field": "location.current",
+      "old": "大周帝都内廷皇宫",
+      "new": "大周帝都寒蝉观山门阶下"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "大监",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "装饰",
+      "payload": {
+        "status": "大周帝君身前黄门内廷大监，深夜驾乘黑色玄鸟马车降旨召顾道儒深夜入宫"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "顾道儒",
+      "type": "角色",
+      "mentions": [
+        "顾道儒",
+        "顾先生"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "墨玄机",
+      "type": "角色",
+      "mentions": [
+        "墨玄机",
+        "玄机"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "苏木",
+      "type": "角色",
+      "mentions": [
+        "苏木"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "太虚道长",
+      "type": "角色",
+      "mentions": [
+        "太虚道长",
+        "观主"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "大监",
+      "type": "角色",
+      "mentions": [
+        "大监",
+        "老太监"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 35,
+      "location": "大周帝都街道与寒蝉观山门",
+      "summary": "清晨冷雾中百姓学子在帝都热烈传颂苏冷袖殉道血雾，百姓在寒蝉观山门外安静长跪默默求道。",
+      "characters": [
+        "顾道儒",
+        "苏木"
+      ]
+    },
+    {
+      "index": 2,
+      "start_line": 36,
+      "end_line": 85,
+      "location": "大周帝都寒蝉观静室与后院",
+      "summary": "温热艾香下，墨玄机温柔为主角包扎昨日捡棋受伤的手指并长谈；扫地老者古松下点拨苏木扫松针。",
+      "characters": [
+        "顾道儒",
+        "墨玄机",
+        "苏木"
+      ]
+    },
+    {
+      "index": 3,
+      "start_line": 86,
+      "end_line": 150,
+      "location": "帝都秦馆别院与齐会馆密室",
+      "summary": "朝堂老儒与列国使臣幽暗会盟，密谋抛弃学术在开幕式剥夺主角资格；白云观太虚道长云端冷眼旁观局势发展。",
+      "characters": [
+        "太虚道长"
+      ]
+    },
+    {
+      "index": 4,
+      "start_line": 151,
+      "end_line": 178,
+      "location": "大周帝都寒蝉观山门石阶下",
+      "summary": "深夜雨后泥泞。代表大周皇权的玄鸟黑色奢华马车突降，明黄太监大监下车尖声宣读帝君深夜入宫觐见密旨。",
+      "characters": [
+        "大监",
+        "墨玄机",
+        "顾道儒"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "quest",
+  "summary_text": "---\nchapter: 18\ntime: \"九月十七日清晨至深夜\"\nlocation: \"大周帝都寒蝉观\"\ncharacters: [\"顾道儒\", \"墨玄机\", \"苏木\", \"太虚道长\", \"大监\"]\nstate_changes: [\"大监: 未登场→乘皇室黑色马车深夜降临寒蝉观宣读召见密旨\"]\nhook_type: \"宿敌升级钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n第十八章《雨歇寒蝉澜声急》讲述九月十七日暴雨初晴。苏冷袖血雾殉道的惨烈余波如海啸震动帝都。流民百姓与寒门学子心存无上崇敬与信仰，自发在观外寒风中安静长跪守候求道，令民间气运激荡。静室内艾香缭绕，极度虚脱的主角顾道儒由墨玄机悉心上药包扎伤指，长谈间揭开了主角昨日固执捡起苏冷袖沾血铜棋碎片的手伤来源，两人相濡以沫知己情更甚。与此同时，大周保守老儒官僚与大秦大齐特使咬牙切齿，密谋在开幕式上剥夺主角大比资格。太虚道长与扫地老者各有玄妙互动以推进亚圣陨落与伪圣天幕长线暗线。深夜，一辆奢华高贵的皇室黑色马车在泥泞中停在观门前，大监太监下车降旨，大周帝君的深夜召见密旨突降，大比大博弈引爆前夜。\n## 伏笔\n- [承接] 扫地老者与苏木、太虚道长与部下的简短对话，继续神秘深化并推进了三十年前亚圣陨落和万年天网残缺长线大暗线。\n- [埋设] 帝君深夜召见的“黑色马车”与“密旨”大悬念，为后续第十九章的大比与皇室介入埋设强力火线引信。\n## 承接点\n大周帝君为何会在保守派密谋剥夺参赛权的前夜，深夜急招顾道儒？密旨的降临将如何改写主角在帝都的大比局势？",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

@@ -32,9 +32,9 @@
     "cultivation_subtiers": "一至九境"
   },
   "progress": {
-    "current_chapter": 17,
-    "total_words": 66088,
-    "last_updated": "2026-05-29 19:09:37",
+    "current_chapter": 18,
+    "total_words": 69854,
+    "last_updated": "2026-05-29 19:18:38",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -61,7 +61,8 @@
       "14": "chapter_committed",
       "15": "chapter_committed",
       "16": "chapter_committed",
-      "17": "chapter_committed"
+      "17": "chapter_committed",
+      "18": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -99,11 +100,11 @@
   "review_checkpoints": [],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 17,
+    "last_quest_chapter": 18,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 12,
+    "chapters_since_switch": 13,
     "history": [
       {
         "chapter": 4,
@@ -151,6 +152,10 @@
       },
       {
         "chapter": 17,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 18,
         "dominant": "quest"
       }
     ]
@@ -203,6 +208,11 @@
         "current": "大周学宫百家论道台"
       },
       "realm": "死亡"
+    },
+    "大监": {
+      "location": {
+        "current": "大周帝都寒蝉观山门阶下"
+      }
     }
   }
 }
