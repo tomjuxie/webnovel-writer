@@ -1,31 +1,26 @@
 {
   "meta": {
     "schema_version": "story-system/v1",
-    "contract_type": "VOLUME_BRIEF",
+    "contract_type": "REVIEW_CONTRACT",
     "generator_version": "phase2",
     "source_trace": []
   },
-  "volume_goal": {
-    "summary": "第1卷延续 玄幻退婚流 的主冲突"
-  },
-  "selected_tropes": [
+  "must_check": [],
+  "blocking_rules": [],
+  "genre_specific_risks": [
     "玄幻退婚流"
   ],
-  "selected_pacing": {
-    "wave": "三章内必须有首次有效反打"
-  },
-  "selected_scenes": [],
   "anti_patterns": [
     "打脸不能软收尾",
     "主角还没兑现就被配角代打",
-    "把上一卷复述成流水账",
-    "预告剧透过量",
-    "完全不照顾遗忘读者",
-    "只会笼统要求加快节奏",
-    "不统计近章分布",
-    "把所有问题都归咎于字数",
-    "榜单一出来只剩路人齐刷刷震惊，所有角色反应都长一个样。",
+    "支线一个个机械交差",
+    "回收完仍然和主线无关",
+    "并线节点没有足够戏剧压力",
+    "质疑太弱没有压迫",
+    "证明过长拖掉爽感",
+    "缺最后一拍导致场面发虚",
     "刚被嘲讽完立刻无代价开挂秒杀，全程没有铺垫和反转支点",
+    "解说把所有动作都复述一遍，读者比场上观众还先看累。",
     "战力体系混乱",
     "升级无代价",
     "打脸没有补刀"
@@ -33,6 +28,10 @@
   "system_constraints": [
     "先压后爆"
   ],
+  "review_thresholds": {
+    "blocking_count": 0,
+    "missed_nodes": 0
+  },
   "overrides": {
     "locked": {},
     "append_only": {},

@@ -32,9 +32,9 @@
     "cultivation_subtiers": "一至九境"
   },
   "progress": {
-    "current_chapter": 20,
-    "total_words": 78189,
-    "last_updated": "2026-05-29 20:18:20",
+    "current_chapter": 23,
+    "total_words": 92289,
+    "last_updated": "2026-05-30 11:19:21",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -64,7 +64,10 @@
       "17": "chapter_committed",
       "18": "chapter_committed",
       "19": "chapter_committed",
-      "20": "chapter_committed"
+      "20": "chapter_committed",
+      "21": "chapter_committed",
+      "22": "chapter_committed",
+      "23": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -99,14 +102,30 @@
     "active_threads": [],
     "foreshadowing": []
   },
-  "review_checkpoints": [],
+  "review_checkpoints": [
+    {
+      "chapters": "21-21",
+      "report": "审查报告/第21章审查报告.md",
+      "reviewed_at": "2026-05-30 09:56:52"
+    },
+    {
+      "chapters": "21-21",
+      "report": "审查报告/第21章审查报告.md",
+      "reviewed_at": "2026-05-30 10:42:27"
+    },
+    {
+      "chapters": "22-22",
+      "report": "审查报告/第22章审查报告.md",
+      "reviewed_at": "2026-05-30 10:54:09"
+    }
+  ],
   "chapter_meta": {},
   "strand_tracker": {
-    "last_quest_chapter": 20,
+    "last_quest_chapter": 23,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 15,
+    "chapters_since_switch": 18,
     "history": [
       {
         "chapter": 4,
@@ -167,6 +186,18 @@
       {
         "chapter": 20,
         "dominant": "quest"
+      },
+      {
+        "chapter": 21,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 22,
+        "dominant": "quest"
+      },
+      {
+        "chapter": 23,
+        "dominant": "quest"
       }
     ]
   },
@@ -180,7 +211,7 @@
       "location": {
         "current": "大周帝局寒蝉观"
       },
-      "status": "以齐物至理辩倒并解构公孙烈“离坚白”概念锁链。因为是阐述真理而非将圣言转化为直接物理攻击，因而未受破坏性知行反噬，保持残躯无新伤，庄子竹简愈发清晰"
+      "status": "以齐物至理辩倒并解构公孙烈“离坚白”概念锁链。因为是阐述真理而非将圣言转化为直接直接攻击，因而未受破坏性知行反噬，保持残躯无新伤，庄子竹简愈发清晰"
     },
     "陈明": {
       "status": "化玉殉道"
@@ -231,7 +262,12 @@
     },
     "商无情": {
       "location": {
-        "current": "大秦驻帝都馆所"
+        "current": "大秦驻帝都馆所（被禁军封锁围困中）"
+      }
+    },
+    "大秦黑铁判官": {
+      "location": {
+        "current": "大秦驻帝都馆所（负伤躲避）"
       }
     }
   }

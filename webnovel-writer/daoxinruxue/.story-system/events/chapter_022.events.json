@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-ch022-001",
+    "chapter": 22,
+    "event_type": "artifact_obtained",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "陆明代表朝廷与学宫送达正赛特赐种子凭证“九玺学宫令”，确立主角为大周唯一的“代天论道人”，享有至高特权与法理背书。"
+    }
+  },
+  {
+    "event_id": "evt-ch022-002",
+    "chapter": 22,
+    "event_type": "open_loop_created",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "陆明透露西北血色防线抗蛮西线告急、大唐兵家亚圣将陨的惊天危机，并交代了十二天后即将开启的“百家九宫生死擂”残酷决战规则。",
+      "unanswered_question": "十二日后的九宫生死擂上，大秦与大齐倾巢而出的顶尖百家妖孽与天骄会对顾道儒展开怎样恐怖的道统反扑？顾道儒又将如何以凡人残躯，在生死擂台上立起拯救人族大防线的无上大道？",
+      "urgency": 95.0,
+      "planted_chapter": 22
+    }
+  }
+]

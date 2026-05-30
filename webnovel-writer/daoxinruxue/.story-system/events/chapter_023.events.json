@@ -1,0 +1,21 @@
+[
+  {
+    "event_id": "evt-ch023-001",
+    "chapter": 23,
+    "event_type": "character_state_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "顾道儒在山门前以格物致知与知行大问辩退大齐天骄，学术成就引发天地微澜鸣动认可，声望在大比前夜进一步拔高。"
+    }
+  },
+  {
+    "event_id": "evt-ch023-002",
+    "chapter": 23,
+    "event_type": "relationship_changed",
+    "subject": "顾道儒",
+    "payload": {
+      "target": "墨玄机",
+      "content": "主角以‘格物之理’点拨墨玄机机括缺陷，墨玄机福至心灵推演出力学与力距的物理比例规律，两人在默契相视与茶香中进一步升华了志同道合的灵性知己情谊。"
+    }
+  }
+]

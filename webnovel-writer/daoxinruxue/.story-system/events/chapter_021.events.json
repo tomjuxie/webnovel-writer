@@ -1,0 +1,21 @@
+[
+  {
+    "event_id": "evt-ch021-001",
+    "chapter": 21,
+    "event_type": "open_loop_closed",
+    "subject": "顾道儒",
+    "payload": {
+      "content": "利用天子玄鸟金牌的正统气运，以法理反噬直接将大秦的两位六境判官重创震碎经脉，成功击溃刺杀攻势。",
+      "loop_event_id": "evt-ch020-001"
+    }
+  },
+  {
+    "event_id": "evt-ch021-002",
+    "chapter": 21,
+    "event_type": "character_state_changed",
+    "subject": "扫地老者",
+    "payload": {
+      "content": "在死士自爆的千钧一发之际挥动竹帚“一帚拂尘，万法归寂”轻松化解了死士自爆，其恐怖的大道实力首次惊天一现。"
+    }
+  }
+]

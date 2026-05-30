@@ -1,20 +1,15 @@
 {
   "meta": {
     "schema_version": "story-system/v1",
-    "contract_type": "VOLUME_BRIEF",
+    "contract_type": "REVIEW_CONTRACT",
     "generator_version": "phase2",
     "source_trace": []
   },
-  "volume_goal": {
-    "summary": "第1卷延续 玄幻退婚流 的主冲突"
-  },
-  "selected_tropes": [
+  "must_check": [],
+  "blocking_rules": [],
+  "genre_specific_risks": [
     "玄幻退婚流"
   ],
-  "selected_pacing": {
-    "wave": "三章内必须有首次有效反打"
-  },
-  "selected_scenes": [],
   "anti_patterns": [
     "打脸不能软收尾",
     "主角还没兑现就被配角代打",
@@ -33,6 +28,10 @@
   "system_constraints": [
     "先压后爆"
   ],
+  "review_thresholds": {
+    "blocking_count": 0,
+    "missed_nodes": 0
+  },
   "overrides": {
     "locked": {},
     "append_only": {},
